@@ -1,10 +1,15 @@
 [
-  {"id":"demo-001","title":"Super Mario Bros. 3","platform":"NES","year":1988,"genre":"Plataformas","region":"PAL","format":"Cartucho","status":"En colección","condition":"Completo","description":"Mapas llenos de secretos y ocho mundos de aventuras. Registro de ejemplo, pendiente de sustituir por una ficha real.","color":"#bb6239"},
-  {"id":"demo-002","title":"The Legend of Zelda","platform":"NES","year":1986,"genre":"Aventura","region":"PAL","format":"Cartucho","status":"Lista de deseos","condition":"Por definir","description":"Una aventura de exploración por Hyrule. Registro de ejemplo para mostrar la lista de deseos.","color":"#727341"},
-  {"id":"demo-003","title":"Sonic the Hedgehog","platform":"Mega Drive","year":1991,"genre":"Plataformas","region":"PAL","format":"Cartucho","status":"En colección","condition":"Con caja","description":"Velocidad, anillos y caminos alternativos en una aventura de 16 bits. Registro de demostración.","color":"#326bb6"},
-  {"id":"demo-004","title":"Super Metroid","platform":"Super Nintendo","year":1994,"genre":"Acción y aventura","region":"PAL","format":"Cartucho","status":"Lista de deseos","condition":"Por definir","description":"Explora los pasadizos del planeta Zebes con Samus Aran. Registro de demostración.","color":"#765292"},
-  {"id":"demo-005","title":"Tetris","platform":"Game Boy","year":1989,"genre":"Puzle","region":"PAL","format":"Cartucho","status":"En colección","condition":"Solo cartucho","description":"Siete piezas y una idea que nunca envejece. Registro de demostración.","color":"#677946"},
-  {"id":"demo-006","title":"Final Fantasy VII","platform":"PlayStation","year":1997,"genre":"RPG","region":"PAL","format":"Disco","status":"En colección","condition":"Completo","description":"Una aventura de rol que comienza en las calles de Midgar. Registro de demostración.","color":"#3d817c"},
-  {"id":"demo-007","title":"Super Mario 64","platform":"Nintendo 64","year":1996,"genre":"Plataformas","region":"PAL","format":"Cartucho","status":"En colección","condition":"Solo cartucho","description":"Un castillo, muchos cuadros y estrellas por descubrir. Registro de demostración.","color":"#b24e59"},
-  {"id":"demo-008","title":"Metroid Dread","platform":"Nintendo Switch","year":2021,"genre":"Acción y aventura","region":"PAL","format":"Tarjeta","status":"Lista de deseos","condition":"Por definir","description":"Exploración y acción en una nueva misión de Samus. Registro de demostración.","color":"#456b86"}
+  {
+    "id": "rgv-0001",
+    "title": "Puyo Puyo Tetris 2",
+    "platform": "Xbox One / Xbox Series X",
+    "year": 2020,
+    "genre": "Puzle",
+    "region": "Edición europea, carátula en inglés (país por confirmar)",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y carátula muy buenas; disco presente, superficie de lectura sin comprobar; folleto de contenido adicional incluido",
+    "description": "Primer ejemplar real del catálogo. Comprado nuevo hace menos de un año. Incluye caja, disco y folleto Skill Battle Booster Pack (no es manual). Valor de mercado orientativo: 13 € (rango 10–16 €), pendiente de verificación periódica. Fotografías propias pendientes de integrar.",
+    "color": "#3c8f6e"
+  }
 ]
