@@ -10,6 +10,10 @@
     "status": "En colección",
     "condition": "Caja y carátula muy buenas; disco presente, superficie de lectura sin comprobar; folleto de contenido adicional incluido",
     "description": "Primer ejemplar real del catálogo. Comprado nuevo hace menos de un año. Incluye caja, disco y folleto Skill Battle Booster Pack (no es manual). Valor de mercado orientativo: 13 € (rango 10–16 €), pendiente de verificación periódica. Fotografías propias pendientes de integrar.",
-    "color": "#3c8f6e"
+    "color": "#3c8f6e",
+    "marketValue": 13,
+    "marketMin": 10,
+    "marketMax": 16,
+    "valuationDate": "2026-11-13"
   }
 ]
