@@ -18,7 +18,7 @@ node --check app.js
 npm run build
 ```
 
-Servir esta carpeta mediante un servidor HTTP estático (por ejemplo `python -m http.server 4173`) y abrir `http://localhost:4173`. No abrir con `file://`, porque el catálogo se carga con fetch.
+Ejecutar `node scripts/serve.mjs` y abrir `http://127.0.0.1:4173`. No abrir con `file://`, porque el catálogo se carga con fetch. El servidor local solo sirve los archivos públicos definidos.
 
 ## GitHub Pages
 
