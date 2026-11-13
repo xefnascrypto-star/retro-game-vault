@@ -8,7 +8,7 @@ function showDetail(game) {
   content.append(element('p', game.description));
   const list = element('dl');
   for (const [label, value] of [['Plataforma', game.platform], ['Año', game.year], ['Género', game.genre], ['Región', game.region], ['Formato', game.format], ['Estado', game.status], ['Conservación', game.condition]]) list.append(element('dt', label), element('dd', value));
-  content.append(list, element('p', 'Ficha de demostración · ilustración tipográfica original.'));
+  content.append(list, element('p', 'Ejemplar real de la colección · fotografía propia pendiente de integrar.'));
   $('detail').showModal();
 }
 function render() {
@@ -19,7 +19,7 @@ function render() {
   for (const game of filtered) {
     const card = element('button', undefined, 'card'); card.type = 'button'; card.setAttribute('aria-label', `Ver ficha de ${game.title}`);
     const art = element('div', undefined, 'art'); art.style.setProperty('--color', game.color); art.setAttribute('aria-hidden', 'true');
-    art.append(element('small', game.platform), element('strong', game.title), element('span', `${game.year} / ARCHIVE EDITION`));
+    art.append(element('small', game.platform), element('strong', game.title), element('span', `${game.year} / COLECCIÓN REAL`));
     const body = element('div', undefined, 'card-body'); body.append(element('span', game.platform, 'tag'), element('h3', game.title), element('div', `${game.year} · ${game.genre}`, 'meta'), element('div', `${game.status === 'En colección' ? '●' : '◇'} ${game.status}`, `state ${game.status === 'Lista de deseos' ? 'wish' : ''}`));
     card.append(art, body); card.addEventListener('click', () => showDetail(game)); $('grid').append(card);
   }
