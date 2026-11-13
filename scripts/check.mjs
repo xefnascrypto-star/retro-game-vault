@@ -1,15 +1,26 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 const games = JSON.parse(await readFile('data/catalog.json', 'utf8'));
-const allowed = ['id','title','platform','year','genre','region','format','status','condition','description','color'];
+const allowed = ['id','title','platform','year','genre','region','format','status','condition','description','color','marketValue','marketMin','marketMax','valuationDate'];
 assert(Array.isArray(games)); const ids = new Set();
 for (const game of games) {
   assert.deepEqual(Object.keys(game).sort(), [...allowed].sort(), 'Only public fields may be published');
   assert(!ids.has(game.id), 'Duplicate id'); ids.add(game.id);
-  for (const field of allowed.filter(k => k !== 'year')) assert(typeof game[field] === 'string' && game[field].length > 0, field);
+  for (const field of allowed.filter(k => !['year','marketValue','marketMin','marketMax','valuationDate'].includes(k))) assert(typeof game[field] === 'string' && game[field].length > 0, field);
   assert(Number.isInteger(game.year) && game.year >= 1970 && game.year <= 2100);
   assert(/^#[0-9a-f]{6}$/i.test(game.color));
+  for (const field of ['marketValue','marketMin','marketMax']) assert(typeof game[field] === 'number' && Number.isFinite(game[field]) && game[field] >= 0, field);
+  assert(game.marketMin <= game.marketValue && game.marketValue <= game.marketMax, 'Market value must be within valuation range');
+  assert(/^\d{4}-\d{2}-\d{2}$/.test(game.valuationDate) && !Number.isNaN(Date.parse(game.valuationDate)), 'valuationDate must be a real ISO date');
   assert(['En colección','Lista de deseos'].includes(game.status));
+}
+const history = JSON.parse(await readFile('data/value-history.json', 'utf8'));
+assert(Array.isArray(history), 'History is an array');
+for (const entry of history) {
+  assert.deepEqual(Object.keys(entry).sort(), ['date','note','total'], 'History contains only public fields');
+  assert(typeof entry.date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(entry.date) && !Number.isNaN(Date.parse(entry.date)), 'History date');
+  assert(typeof entry.total === 'number' && Number.isFinite(entry.total) && entry.total >= 0, 'History total');
+  assert(typeof entry.note === 'string' && entry.note.length > 0, 'History note');
 }
 const js = await readFile('app.js', 'utf8');
 assert(!js.includes('innerHTML'), 'Render catalogue text safely');
