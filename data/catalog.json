@@ -428,5 +428,355 @@
       }
     ],
     "coverPhoto": "images/rgv-0010-01-front.webp"
+  },
+  {
+    "id": "rgv-0011",
+    "title": "FIFA 15 Ultimate Team Edition",
+    "platform": "Xbox One",
+    "year": 2014,
+    "genre": "Deportes",
+    "region": "PAL España",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja con pegatinas y señales de uso; disco presente, cara de lectura sin comprobar.",
+    "description": "Ultimate Team Edition española. Incluye folleto y presenta pegatinas. Los datos de compra visibles en las fotografías se han ocultado.",
+    "color": "#3c8f6e",
+    "marketValue": 3,
+    "marketMin": 3,
+    "marketMax": 3,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0011-front.webp",
+        "label": "Portada frontal con caja cerrada (datos de compra ocultos)",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0011-back.webp",
+        "label": "Contraportada (datos de compra ocultos)",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0011-inside.webp",
+        "label": "Interior abierto con disco y documentación",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0011-front.webp"
+  },
+  {
+    "id": "rgv-0012",
+    "title": "Tom Clancy's The Division",
+    "platform": "Xbox One",
+    "year": 2016,
+    "genre": "Acción y RPG",
+    "region": "PAL España",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y disco presentes; cara de lectura sin comprobar. Estado visual pendiente de revisión detallada.",
+    "description": "Incluye documentación. Requiere conexión a Internet.",
+    "color": "#3c8f6e",
+    "marketValue": 5,
+    "marketMin": 5,
+    "marketMax": 5,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0012-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0012-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0012-inside.webp",
+        "label": "Interior abierto con disco y documentación",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0012-front.webp"
+  },
+  {
+    "id": "rgv-0013",
+    "title": "Destiny (2014)",
+    "platform": "Xbox One",
+    "year": 2014,
+    "genre": "Acción",
+    "region": "PAL España",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y disco presentes; cara de lectura sin comprobar. Estado visual pendiente de revisión detallada.",
+    "description": "Incluye folleto del pase de expansión. Requiere conexión a Internet. No se garantiza la validez de contenido descargable.",
+    "color": "#3c8f6e",
+    "marketValue": 4,
+    "marketMin": 4,
+    "marketMax": 4,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0013-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0013-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0013-inside.webp",
+        "label": "Interior abierto con disco y documentación",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0013-front.webp"
+  },
+  {
+    "id": "rgv-0014",
+    "title": "Destiny 2 (2017)",
+    "platform": "Xbox One",
+    "year": 2017,
+    "genre": "Acción",
+    "region": "PAL España",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y disco presentes; cara de lectura sin comprobar. Estado visual pendiente de revisión detallada.",
+    "description": "Incluye folleto del contenido adicional Corazón Gélido. La validez del código no está verificada.",
+    "color": "#3c8f6e",
+    "marketValue": 3,
+    "marketMin": 3,
+    "marketMax": 3,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0014-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0014-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0014-inside.webp",
+        "label": "Interior abierto con disco y documentación",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0014-front.webp"
+  },
+  {
+    "id": "rgv-0015",
+    "title": "Grand Theft Auto V (2022)",
+    "platform": "Xbox Series X",
+    "year": 2022,
+    "genre": "Acción y aventura",
+    "region": "PAL España, edición de dos discos",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y disco presentes; cara de lectura sin comprobar. Estado visual pendiente de revisión detallada.",
+    "description": "Edición física para Xbox Series X con dos discos originales, visibles en la fotografía del interior.",
+    "color": "#3c8f6e",
+    "marketValue": 12,
+    "marketMin": 12,
+    "marketMax": 12,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0015-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0015-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0015-inside.webp",
+        "label": "Interior abierto con los dos discos originales",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0015-front.webp"
+  },
+  {
+    "id": "rgv-0016",
+    "title": "Bloodstained: Ritual of the Night",
+    "platform": "Xbox One",
+    "year": 2019,
+    "genre": "Acción y aventura",
+    "region": "Edición alemana USK 12",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y disco presentes; cara de lectura sin comprobar. Estado visual pendiente de revisión detallada.",
+    "description": "Carátula alemana USK 12. Disco presente; no es la edición española.",
+    "color": "#3c8f6e",
+    "marketValue": 11,
+    "marketMin": 11,
+    "marketMax": 11,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0016-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0016-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0016-inside.webp",
+        "label": "Interior abierto con disco y documentación",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0016-front.webp"
+  },
+  {
+    "id": "rgv-0017",
+    "title": "Farming Simulator 19 Platinum Edition",
+    "platform": "Xbox One",
+    "year": 2019,
+    "genre": "Simulación",
+    "region": "PAL España/Portugal",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Muy buen estado visual de caja y carátula; disco presente, cara de lectura sin comprobar.",
+    "description": "Platinum Edition con contenido de maquinaria CLAAS. Disco presente; no se aprecia manual independiente.",
+    "color": "#3c8f6e",
+    "marketValue": 9,
+    "marketMin": 9,
+    "marketMax": 9,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0017-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0017-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0017-inside.webp",
+        "label": "Interior abierto con disco y documentación",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0017-front.webp"
+  },
+  {
+    "id": "rgv-0018",
+    "title": "RoboCop: Rogue City",
+    "platform": "Xbox Series X",
+    "year": 2023,
+    "genre": "Acción",
+    "region": "Edición europea, carátula en inglés",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Muy buen estado visual de caja y carátula; disco presente, cara de lectura sin comprobar.",
+    "description": "Carátula europea en inglés. Disco original presente; no se aprecia manual independiente.",
+    "color": "#3c8f6e",
+    "marketValue": 14,
+    "marketMin": 14,
+    "marketMax": 14,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0018-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0018-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0018-inside.webp",
+        "label": "Interior abierto con disco y documentación",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0018-front.webp"
+  },
+  {
+    "id": "rgv-0019",
+    "title": "Assassin's Creed Valhalla Ragnarök Edition",
+    "platform": "Xbox One / Xbox Series X",
+    "year": 2022,
+    "genre": "Acción y RPG",
+    "region": "PAL España, Smart Delivery",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Muy buen estado visual de caja y carátula; disco presente, cara de lectura sin comprobar.",
+    "description": "Ragnarök Edition con folleto de El amanecer del Ragnarök. Código DLC no verificado; no se garantiza su validez.",
+    "color": "#3c8f6e",
+    "marketValue": 9,
+    "marketMin": 9,
+    "marketMax": 9,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0019-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0019-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0019-inside.webp",
+        "label": "Interior abierto con disco y documentación",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0019-front.webp"
+  },
+  {
+    "id": "rgv-0020",
+    "title": "EA Sports UFC 5",
+    "platform": "Xbox Series X",
+    "year": 2023,
+    "genre": "Deportes",
+    "region": "Edición europea multilingüe",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Muy buen estado visual de caja y carátula; disco presente, cara de lectura sin comprobar.",
+    "description": "Incluye folleto promocional de EA Play y disco original.",
+    "color": "#3c8f6e",
+    "marketValue": 13,
+    "marketMin": 13,
+    "marketMax": 13,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0020-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0020-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0020-inside.webp",
+        "label": "Interior abierto con disco y documentación",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0020-front.webp"
   }
 ]
