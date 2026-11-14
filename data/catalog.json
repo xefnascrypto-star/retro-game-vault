@@ -1128,5 +1128,355 @@
       }
     ],
     "coverPhoto": "images/rgv-0030-front.webp"
+  },
+  {
+    "id": "rgv-0031",
+    "title": "N3: Ninety-Nine Nights",
+    "platform": "Xbox 360",
+    "year": 2006,
+    "genre": "Acción · Hack and slash",
+    "region": "PAL España",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; disco y manual presentes. Cara de lectura y funcionamiento sin comprobar.",
+    "description": "Edición PAL España. Carátula en español y manual visible. Incluye caja, carátula, disco y manual. Idiomas del juego sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 9,
+    "marketMin": 9,
+    "marketMax": 9,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0031-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0031-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0031-inside.webp",
+        "label": "Interior abierto con disco y manual",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0031-front.webp"
+  },
+  {
+    "id": "rgv-0032",
+    "title": "F1 2010",
+    "platform": "Xbox 360",
+    "year": 2010,
+    "genre": "Conducción · Fórmula 1",
+    "region": "PAL UK",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso y etiqueta comercial; disco y manual presentes. Cara de lectura y funcionamiento sin comprobar.",
+    "description": "Edición PAL UK. Carátula en inglés y manual visible. Incluye caja, carátula, disco y manual. Idiomas del juego sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 4,
+    "marketMin": 4,
+    "marketMax": 4,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0032-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0032-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0032-inside.webp",
+        "label": "Interior abierto con disco y manual",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0032-front.webp"
+  },
+  {
+    "id": "rgv-0033",
+    "title": "SBK 09: Superbike World Championship",
+    "platform": "Xbox 360",
+    "year": 2009,
+    "genre": "Conducción · Motociclismo",
+    "region": "PAL UK",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso y etiqueta comercial; disco y manual presentes. Cara de lectura y funcionamiento sin comprobar.",
+    "description": "Edición PAL UK. Carátula en inglés y manual visible. Incluye caja, carátula, disco y manual. Idiomas del juego sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 5,
+    "marketMin": 5,
+    "marketMax": 5,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0033-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0033-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0033-inside.webp",
+        "label": "Interior abierto con disco y manual",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0033-front.webp"
+  },
+  {
+    "id": "rgv-0034",
+    "title": "Kinect Adventures!",
+    "platform": "Xbox 360",
+    "year": 2010,
+    "genre": "Acción y minijuegos",
+    "region": "PAL Europa",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja morada y carátula con señales de uso; disco y manual presentes. Cara de lectura y funcionamiento sin comprobar.",
+    "description": "Edición PAL, carátula multilingüe con textos en inglés, español y portugués. Incluye caja, carátula, disco y manual. Requiere sensor Kinect, indicado en la portada; el sensor no aparece incluido. Idiomas del juego sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 3,
+    "marketMin": 3,
+    "marketMax": 3,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0034-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0034-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0034-inside.webp",
+        "label": "Interior abierto con disco y manual",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0034-front.webp"
+  },
+  {
+    "id": "rgv-0035",
+    "title": "Children of Mana",
+    "platform": "Nintendo DS",
+    "year": 2006,
+    "genre": "Acción y RPG",
+    "region": "Japón",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho y manual presentes. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición japonesa: Seiken Densetsu DS: Children of Mana. Carátula y documentación en japonés. Incluye caja, carátula, cartucho y manual. Idiomas del juego sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 12,
+    "marketMin": 12,
+    "marketMax": 12,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0035-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0035-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0035-inside.webp",
+        "label": "Interior abierto con cartucho y manual",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0035-front.webp"
+  },
+  {
+    "id": "rgv-0036",
+    "title": "Table Game Spirits V",
+    "platform": "Nintendo DS",
+    "year": 2009,
+    "genre": "Juegos de mesa",
+    "region": "Japón",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho y manual presentes. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición japonesa Table Game Spirits V (Victory), código NTR-P-B3TJ visible en la caja. Carátula y documentación en japonés. Incluye caja, carátula, cartucho y manual. Idiomas del juego sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 4,
+    "marketMin": 4,
+    "marketMax": 4,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0036-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0036-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0036-inside.webp",
+        "label": "Interior abierto con cartucho y manual",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0036-front.webp"
+  },
+  {
+    "id": "rgv-0037",
+    "title": "Yoshi's Island DS",
+    "platform": "Nintendo DS",
+    "year": 2007,
+    "genre": "Plataformas",
+    "region": "Japón",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho y manual presentes. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición japonesa. Carátula y documentación en japonés. Incluye caja, carátula, cartucho y manual. Año de lanzamiento de la edición japonesa: 2007. Idiomas del juego sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 9,
+    "marketMin": 9,
+    "marketMax": 9,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0037-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0037-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0037-inside.webp",
+        "label": "Interior abierto con cartucho y manual",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0037-front.webp"
+  },
+  {
+    "id": "rgv-0038",
+    "title": "Mario Kart DS",
+    "platform": "Nintendo DS",
+    "year": 2005,
+    "genre": "Conducción · Karts",
+    "region": "Japón",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente y manual con arrugas visibles. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición japonesa. Carátula y documentación en japonés. Incluye caja, carátula, cartucho y manual. Portada orientada correctamente. Idiomas del juego sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 10,
+    "marketMin": 10,
+    "marketMax": 10,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0038-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0038-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0038-inside.webp",
+        "label": "Interior abierto con cartucho y manual",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0038-front.webp"
+  },
+  {
+    "id": "rgv-0039",
+    "title": "Mario Party DS",
+    "platform": "Nintendo DS",
+    "year": 2007,
+    "genre": "Fiesta y minijuegos",
+    "region": "Japón",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho y manual presentes. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición japonesa. Carátula y documentación en japonés. Incluye caja, carátula, cartucho y manual. Idiomas del juego sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 7,
+    "marketMin": 7,
+    "marketMax": 7,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0039-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0039-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0039-inside.webp",
+        "label": "Interior abierto con cartucho y manual",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0039-front.webp"
+  },
+  {
+    "id": "rgv-0040",
+    "title": "Puyo Puyo! 15th Anniversary",
+    "platform": "Nintendo DS",
+    "year": 2006,
+    "genre": "Puzle",
+    "region": "Japón",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho, manual y documentación visibles. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición japonesa del 15.º aniversario. Carátula y documentación en japonés. Incluye caja, carátula, cartucho, manual y documentación visible. Idiomas del juego sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 9,
+    "marketMin": 9,
+    "marketMax": 9,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0040-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0040-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0040-inside.webp",
+        "label": "Interior abierto con cartucho y manual",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0040-front.webp"
   }
 ]
