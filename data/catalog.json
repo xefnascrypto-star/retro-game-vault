@@ -15,8 +15,24 @@
     "marketMin": 10,
     "marketMax": 16,
     "valuationDate": "2026-11-14",
-    "photos": [],
-    "coverPhoto": null
+    "photos": [
+      {
+        "src": "images/rgv-0001-01-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0001-02-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0001-03-inside.webp",
+        "label": "Interior, disco y folleto",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0001-01-front.webp"
   },
   {
     "id": "rgv-0002",
@@ -34,8 +50,24 @@
     "marketMin": 15,
     "marketMax": 15,
     "valuationDate": "2026-11-14",
-    "photos": [],
-    "coverPhoto": null
+    "photos": [
+      {
+        "src": "images/rgv-0002-01-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0002-02-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0002-03-inside.webp",
+        "label": "Interior y disco",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0002-01-front.webp"
   },
   {
     "id": "rgv-0003",
@@ -53,8 +85,29 @@
     "marketMin": 14,
     "marketMax": 14,
     "valuationDate": "2026-11-14",
-    "photos": [],
-    "coverPhoto": null
+    "photos": [
+      {
+        "src": "images/rgv-0003-01-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0003-02-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0003-03-inside.webp",
+        "label": "Interior, disco y folleto hipogrifo",
+        "kind": "inside"
+      },
+      {
+        "src": "images/rgv-0003-04-disc-back.webp",
+        "label": "Cara de lectura del disco",
+        "kind": "discBack"
+      }
+    ],
+    "coverPhoto": "images/rgv-0003-01-front.webp"
   },
   {
     "id": "rgv-0004",
@@ -72,8 +125,49 @@
     "marketMin": 15,
     "marketMax": 15,
     "valuationDate": "2026-11-14",
-    "photos": [],
-    "coverPhoto": null
+    "photos": [
+      {
+        "src": "images/rgv-0004-01-front.webp",
+        "label": "Funda de cartón, portada frontal",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0004-02-back.webp",
+        "label": "Funda de cartón, contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0004-03-back.webp",
+        "label": "Contraportada de caja interior",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0004-04-inside.webp",
+        "label": "Interior del juego y folleto",
+        "kind": "inside"
+      },
+      {
+        "src": "images/rgv-0004-05-disc-back.webp",
+        "label": "Cara de lectura del disco",
+        "kind": "discBack"
+      },
+      {
+        "src": "images/rgv-0004-06-extras.webp",
+        "label": "Apertura de funda exterior de cartón",
+        "kind": "extras"
+      },
+      {
+        "src": "images/rgv-0004-08-accessory.webp",
+        "label": "Caja interior y pin",
+        "kind": "accessory"
+      },
+      {
+        "src": "images/rgv-0004-09-accessory.webp",
+        "label": "Pin Pinfinity en su envoltorio",
+        "kind": "accessory"
+      }
+    ],
+    "coverPhoto": "images/rgv-0004-01-front.webp"
   },
   {
     "id": "rgv-0005",
@@ -91,8 +185,34 @@
     "marketMin": 22,
     "marketMax": 22,
     "valuationDate": "2026-11-14",
-    "photos": [],
-    "coverPhoto": null
+    "photos": [
+      {
+        "src": "images/rgv-0005-01-front.webp",
+        "label": "Portada frontal de funda exterior",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0005-02-back.webp",
+        "label": "Contraportada de funda exterior",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0005-03-inside.webp",
+        "label": "Steelbook abierto, disco y extras",
+        "kind": "inside"
+      },
+      {
+        "src": "images/rgv-0005-04-extras.webp",
+        "label": "Steelbook, arte exterior A",
+        "kind": "extras"
+      },
+      {
+        "src": "images/rgv-0005-05-extras.webp",
+        "label": "Steelbook, arte exterior B",
+        "kind": "extras"
+      }
+    ],
+    "coverPhoto": "images/rgv-0005-01-front.webp"
   },
   {
     "id": "rgv-0006",
@@ -110,8 +230,24 @@
     "marketMin": 13,
     "marketMax": 13,
     "valuationDate": "2026-11-14",
-    "photos": [],
-    "coverPhoto": null
+    "photos": [
+      {
+        "src": "images/rgv-0006-01-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0006-02-back.webp",
+        "label": "Contraportada FR/NL",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0006-03-inside.webp",
+        "label": "Interior y disco",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0006-01-front.webp"
   },
   {
     "id": "rgv-0007",
@@ -129,8 +265,39 @@
     "marketMin": 7,
     "marketMax": 12,
     "valuationDate": "2026-11-14",
-    "photos": [],
-    "coverPhoto": null
+    "photos": [
+      {
+        "src": "images/rgv-0007-01-front.webp",
+        "label": "Funda de cartón, portada frontal",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0007-02-back.webp",
+        "label": "Contraportada de funda de cartón",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0007-03-back.webp",
+        "label": "Contraportada de caja interior",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0007-04-inside.webp",
+        "label": "Interior, disco y folleto",
+        "kind": "inside"
+      },
+      {
+        "src": "images/rgv-0007-05-disc-back.webp",
+        "label": "Cara de lectura del disco",
+        "kind": "discBack"
+      },
+      {
+        "src": "images/rgv-0007-06-extras.webp",
+        "label": "Carátula del juego sin funda",
+        "kind": "extras"
+      }
+    ],
+    "coverPhoto": "images/rgv-0007-01-front.webp"
   },
   {
     "id": "rgv-0008",
@@ -150,17 +317,27 @@
     "valuationDate": "2026-11-14",
     "photos": [
       {
-        "src": "images/rgv-0008-inside.webp",
-        "label": "Interior abierto y folletos",
+        "src": "images/rgv-0008-01-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0008-02-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0008-03-inside.webp",
+        "label": "Interior, disco y folletos",
         "kind": "inside"
       },
       {
-        "src": "images/rgv-0008-disc.webp",
-        "label": "Disco por detrás (cara de lectura)",
+        "src": "images/rgv-0008-04-disc-back.webp",
+        "label": "Cara de lectura del disco",
         "kind": "discBack"
       }
     ],
-    "coverPhoto": null
+    "coverPhoto": "images/rgv-0008-01-front.webp"
   },
   {
     "id": "rgv-0009",
@@ -180,27 +357,27 @@
     "valuationDate": "2026-11-14",
     "photos": [
       {
-        "src": "images/rgv-0009-front.webp",
-        "label": "Portada frontal con caja cerrada",
+        "src": "images/rgv-0009-01-front.webp",
+        "label": "Portada frontal, caja cerrada",
         "kind": "front"
       },
       {
-        "src": "images/rgv-0009-back.webp",
+        "src": "images/rgv-0009-02-back.webp",
         "label": "Contraportada",
         "kind": "back"
       },
       {
-        "src": "images/rgv-0009-inside.webp",
-        "label": "Interior abierto y folletos",
+        "src": "images/rgv-0009-03-inside.webp",
+        "label": "Interior, disco y documentación",
         "kind": "inside"
       },
       {
-        "src": "images/rgv-0009-disc.webp",
-        "label": "Disco por detrás (cara de lectura)",
+        "src": "images/rgv-0009-04-disc-back.webp",
+        "label": "Cara de lectura del disco",
         "kind": "discBack"
       }
     ],
-    "coverPhoto": "images/rgv-0009-front.webp"
+    "coverPhoto": "images/rgv-0009-01-front.webp"
   },
   {
     "id": "rgv-0010",
@@ -220,26 +397,26 @@
     "valuationDate": "2026-11-14",
     "photos": [
       {
-        "src": "images/rgv-0010-front.webp",
-        "label": "Portada frontal con caja cerrada",
+        "src": "images/rgv-0010-01-front.webp",
+        "label": "Portada frontal, caja cerrada",
         "kind": "front"
       },
       {
-        "src": "images/rgv-0010-back.webp",
+        "src": "images/rgv-0010-02-back.webp",
         "label": "Contraportada",
         "kind": "back"
       },
       {
-        "src": "images/rgv-0010-disc.webp",
-        "label": "Disco por detrás (cara de lectura)",
+        "src": "images/rgv-0010-03-disc-back.webp",
+        "label": "Cara de lectura del disco",
         "kind": "discBack"
       },
       {
-        "src": "images/rgv-0010-booklet.webp",
-        "label": "Manual / folleto",
+        "src": "images/rgv-0010-04-extras.webp",
+        "label": "Manual con señales de uso",
         "kind": "extras"
       }
     ],
-    "coverPhoto": "images/rgv-0010-front.webp"
+    "coverPhoto": "images/rgv-0010-01-front.webp"
   }
 ]
