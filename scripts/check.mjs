@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 const games = JSON.parse(await readFile('data/catalog.json', 'utf8'));
-const allowed = ['id','title','platform','year','genre','region','format','status','condition','description','color','marketValue','marketMin','marketMax','valuationDate'];
+const allowed = ['id','title','platform','year','genre','region','format','status','condition','description','color','marketValue','marketMin','marketMax','valuationDate','photos'];
 assert(Array.isArray(games)); const ids = new Set();
 for (const game of games) {
   assert.deepEqual(Object.keys(game).sort(), [...allowed].sort(), 'Only public fields may be published');
@@ -10,6 +10,12 @@ for (const game of games) {
   assert(Number.isInteger(game.year) && game.year >= 1970 && game.year <= 2100);
   assert(/^#[0-9a-f]{6}$/i.test(game.color));
   for (const field of ['marketValue','marketMin','marketMax']) assert(typeof game[field] === 'number' && Number.isFinite(game[field]) && game[field] >= 0, field);
+  assert(Array.isArray(game.photos) && game.photos.length >= 1 && game.photos.length <= 8,'photo gallery');
+  for (const photo of game.photos) {
+    assert(Object.keys(photo).sort().join(',') === 'label,src', 'Photo fields');
+    assert(typeof photo.label === 'string' && photo.label.length > 0, 'Photo label');
+    assert(typeof photo.src === 'string' && /^images\/[a-z0-9-]+\.webp$/.test(photo.src), 'Photo must be a local WebP asset');
+  }
   assert(game.marketMin <= game.marketValue && game.marketValue <= game.marketMax, 'Market value must be within valuation range');
   assert(/^\d{4}-\d{2}-\d{2}$/.test(game.valuationDate) && !Number.isNaN(Date.parse(game.valuationDate)), 'valuationDate must be a real ISO date');
   assert(['En colección','Lista de deseos'].includes(game.status));
