@@ -1,19 +1,28 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 const games = JSON.parse(await readFile('data/catalog.json', 'utf8'));
-const allowed = ['id','title','platform','year','genre','region','format','status','condition','description','color','marketValue','marketMin','marketMax','valuationDate','photos'];
+const allowed = ['id','title','platform','year','genre','region','format','status','condition','description','color','marketValue','marketMin','marketMax','valuationDate','photos','coverPhoto'];
 assert(Array.isArray(games)); const ids = new Set();
 for (const game of games) {
   assert.deepEqual(Object.keys(game).sort(), [...allowed].sort(), 'Only public fields may be published');
   assert(!ids.has(game.id), 'Duplicate id'); ids.add(game.id);
-  for (const field of allowed.filter(k => !['year','marketValue','marketMin','marketMax','valuationDate','photos'].includes(k))) assert(typeof game[field] === 'string' && game[field].length > 0, field);
+  for (const field of allowed.filter(k => !['year','marketValue','marketMin','marketMax','valuationDate','photos','coverPhoto'].includes(k))) assert(typeof game[field] === 'string' && game[field].length > 0, field);
   assert(Number.isInteger(game.year) && game.year >= 1970 && game.year <= 2100);
   assert(/^#[0-9a-f]{6}$/i.test(game.color));
   for (const field of ['marketValue','marketMin','marketMax']) assert(typeof game[field] === 'number' && Number.isFinite(game[field]) && game[field] >= 0, field);
-  assert(Array.isArray(game.photos) && game.photos.length >= 1 && game.photos.length <= 8,'photo gallery');
+  assert(Array.isArray(game.photos) && game.photos.length >= 0 && game.photos.length <= 8,'photo gallery');
+  const order=['front','back','inside','discPrinted','discBack','extras','accessory'];
+  const ranks=game.photos.map(p=>order.indexOf(p.kind));
+  assert(ranks.every((rank,i)=>rank>=0 && (i===0 || rank>=ranks[i-1])), 'Explicit preferred gallery order');
+  assert(new Set(game.photos.map(p=>p.src)).size===game.photos.length,'Unique gallery photos');
+  const fronts=game.photos.filter(p=>p.kind==='front');
+  assert(game.coverPhoto===null || typeof game.coverPhoto==='string','Explicit cover or null');
+  if(fronts.length)assert(game.coverPhoto===fronts[0].src && game.photos[0].src===game.coverPhoto,'Closed front must be explicit cover and first gallery photo');
+  else assert(game.coverPhoto===null,'Never substitute an interior or disc for the missing front');
   for (const photo of game.photos) {
-    assert(Object.keys(photo).sort().join(',') === 'label,src', 'Photo fields');
+    assert(Object.keys(photo).sort().join(',') === 'kind,label,src', 'Photo fields');
     assert(typeof photo.label === 'string' && photo.label.length > 0, 'Photo label');
+    const bytes = await readFile(photo.src); assert(bytes.toString('ascii',0,4)==='RIFF' && bytes.toString('ascii',8,12)==='WEBP', 'Real WebP asset');
     assert(typeof photo.src === 'string' && /^images\/[a-z0-9-]+\.webp$/.test(photo.src), 'Photo must be a local WebP asset');
   }
   assert(game.marketMin <= game.marketValue && game.marketValue <= game.marketMax, 'Market value must be within valuation range');
@@ -35,3 +44,5 @@ const html = await readFile('index.html','utf8');
 for (const asset of ['styles.css','app.js','data/catalog.json']) await readFile(asset);
 assert(html.includes('lang="es"') && html.includes('name="viewport"'));
 console.log(`OK: ${games.length} public records; unique IDs, strict field allowlist, local assets and safe text rendering.`);
+
+assert.equal(games.length,10); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),120);

@@ -21,8 +21,8 @@ function showDetail(game) {
   content.append(element('p', game.description));
   const list = element('dl');
   for (const [label, value] of [['Plataforma', game.platform], ['Año', game.year], ['Género', game.genre], ['Región', game.region], ['Formato', game.format], ['Estado', game.status], ['Conservación', game.condition]]) list.append(element('dt', label), element('dd', value));
-  if (Number.isFinite(Number(game.marketValue))) list.append(element('dt','Valor estimado'),element('dd',`${euros(Number(game.marketValue))} · rango ${euros(Number(game.marketMin))}–${euros(Number(game.marketMax))}`));
-  content.append(list, element('p', 'Ejemplar real de la colección · fotografía propia pendiente de integrar.'));
+  if (Number.isFinite(Number(game.marketValue))) list.append(element('dt','Valor estimado'),element('dd',`${euros(game.marketValue)} · provisional${game.marketMin === game.marketMax ? ' · rango pendiente de confirmar' : ' · rango ' + euros(game.marketMin) + '–' + euros(game.marketMax)}`));
+  content.append(list, element('p', 'Valoración provisional del lote. Fotografías originales disponibles: ' + (game.photos.length ? game.photos.length : 'ninguna; pendientes de recuperar') + ''));
   $('detail').showModal();
 }
 function showPhoto(game,index) {
@@ -42,10 +42,11 @@ function render() {
   for (const game of filtered) {
     const card = element('button', undefined, 'card'); card.type = 'button'; card.setAttribute('aria-label', `Ver ficha de ${game.title}`);
     const art = element('div', undefined, 'art'); art.style.setProperty('--color', game.color); art.setAttribute('aria-hidden', 'true');
-    if(game.photos?.[0]?.src) {const cover=element('img');cover.src=game.photos[0].src;cover.alt='Portada de '+game.title;cover.loading='lazy';cover.className='card-photo';cover.addEventListener('error',()=>{cover.remove();art.classList.remove('has-photo');});art.classList.add('has-photo');art.append(cover);}
-    art.append(element('small', game.platform), element('strong', game.title), element('span', `${game.year} / COLECCIÓN REAL`));
+    if(game.coverPhoto) {const cover=element('img');cover.src=game.coverPhoto;cover.alt='Portada de '+game.title;cover.loading='lazy';cover.className='card-photo';cover.addEventListener('error',()=>{cover.remove();art.classList.remove('has-photo');});art.classList.add('has-photo');art.append(cover);}
+    if(!game.coverPhoto) art.classList.add('no-cover');
+    art.append(element('small', game.platform), element('strong', game.title), element('span', game.coverPhoto ? `${game.year} / COLECCIÓN REAL` : 'Frontal original pendiente'));
     const body = element('div', undefined, 'card-body'); body.append(element('span', game.platform, 'tag'), element('h3', game.title), element('div', `${game.year} · ${game.genre}`, 'meta'), element('div', `${game.status === 'En colección' ? '●' : '◇'} ${game.status}`, `state ${game.status === 'Lista de deseos' ? 'wish' : ''}`));
-    card.append(art, body); card.addEventListener('click', () => showDetail(game)); $('grid').append(card);
+    body.append(element('div', euros(game.marketValue) + ' · provisional', 'meta'), element('div', game.coverPhoto ? game.photos.length + ' fotos originales' : game.photos.length ? 'Portada pendiente · ' + game.photos.length + ' fotos originales' : 'Fotografías pendientes', 'meta')); card.append(art, body); card.addEventListener('click', () => showDetail(game)); $('grid').append(card);
   }
   $('results').textContent = `${filtered.length} de ${games.length} juegos`; $('empty').hidden = filtered.length !== 0;
 }
@@ -81,9 +82,9 @@ function renderHistory() {
  $('history-explanation').textContent=records.length<2?`Primer registro: ${euros(end)} el ${last.date}. Aún no hay suficientes mediciones para mostrar fluctuaciones.`:`De ${euros(start)} a ${euros(end)} (${end-start>=0?'+':''}${euros(end-start)}). Las variaciones del total también pueden deberse a compras o ventas, no solo a cambios de precio.`;
 }
 try {
-  const response = await fetch('./data/catalog.json?v=20261113c',{cache:'no-store'}); if (!response.ok) throw new Error('Catalog unavailable');
+  const response = await fetch('./data/catalog.json?v=20261114-lote01',{cache:'no-store'}); if (!response.ok) throw new Error('Catalog unavailable');
   games = await response.json();
-  try {const historyResponse=await fetch('./data/value-history.json?v=20261113c',{cache:'no-store'}); if(historyResponse.ok)valueHistory=await historyResponse.json();}catch {}
+  try {const historyResponse=await fetch('./data/value-history.json?v=20261114-lote01',{cache:'no-store'}); if(historyResponse.ok)valueHistory=await historyResponse.json();}catch {}
   const platforms = [...new Set(games.map(g => g.platform))].sort();
   for (const platform of platforms) { const option = element('option', platform); option.value = platform; $('platform').append(option); }
   $('total').textContent = games.length.toString().padStart(2,'0'); $('platforms').textContent = platforms.length.toString().padStart(2,'0'); $('owned').textContent = games.filter(g => g.status === 'En colección').length.toString().padStart(2,'0'); $('market-value').textContent=euros(ownedValue()); $('value-current').textContent=euros(ownedValue()); render();

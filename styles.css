@@ -20,3 +20,7 @@
 #photo-viewer p{margin:8px 0 0;font-size:12px}
 #photo-close{position:absolute;right:12px;top:6px;background:#15171de8;color:white;border:0;font-size:28px;border-radius:6px}
 @media(max-width:700px){.photo-gallery{gap:6px}.photo-thumb img{height:95px}.photo-thumb span{font-size:10px}}
+
+/* lot-title-fit */
+.art strong{overflow-wrap:anywhere}.art:has(strong){overflow:hidden}@media(max-width:700px){.art strong{font-size:18px;line-height:1.08}}
+.art.no-cover{background:#171a20}.art.no-cover::after{display:none}

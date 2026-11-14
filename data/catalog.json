@@ -5,29 +5,241 @@
     "platform": "Xbox One / Xbox Series X",
     "year": 2020,
     "genre": "Puzle",
-    "region": "Edición europea, carátula en inglés (país por confirmar)",
+    "region": "Edición europea",
     "format": "Disco físico",
     "status": "En colección",
     "condition": "Caja y carátula muy buenas; disco presente, superficie de lectura sin comprobar; folleto de contenido adicional incluido",
-    "description": "Primer ejemplar real del catálogo. Comprado nuevo hace menos de un año. Incluye caja, disco y folleto Skill Battle Booster Pack (no es manual). Valor de mercado orientativo: 13 € (rango 10–16 €), pendiente de verificación periódica. Fotografías propias pendientes de integrar.",
+    "description": "Incluye caja, disco y folleto Skill Battle Booster Pack (no es manual). Fotografías originales pendientes de recuperar.",
     "color": "#3c8f6e",
     "marketValue": 13,
     "marketMin": 10,
     "marketMax": 16,
-    "valuationDate": "2026-11-13",
+    "valuationDate": "2026-11-14",
+    "photos": [],
+    "coverPhoto": null
+  },
+  {
+    "id": "rgv-0002",
+    "title": "JoJo’s Bizarre Adventure: All-Star Battle R",
+    "platform": "Xbox One / Xbox Series X",
+    "year": 2022,
+    "genre": "Lucha",
+    "region": "Edición americana ESRB",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Estado pendiente de revisar",
+    "description": "Edición americana identificada por el propietario.",
+    "color": "#3c8f6e",
+    "marketValue": 15,
+    "marketMin": 15,
+    "marketMax": 15,
+    "valuationDate": "2026-11-14",
+    "photos": [],
+    "coverPhoto": null
+  },
+  {
+    "id": "rgv-0003",
+    "title": "Hogwarts Legacy",
+    "platform": "Xbox Series X",
+    "year": 2023,
+    "genre": "Acción y RPG",
+    "region": "Edición europea española",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Estado pendiente de revisar",
+    "description": "Edición española.",
+    "color": "#3c8f6e",
+    "marketValue": 14,
+    "marketMin": 14,
+    "marketMax": 14,
+    "valuationDate": "2026-11-14",
+    "photos": [],
+    "coverPhoto": null
+  },
+  {
+    "id": "rgv-0004",
+    "title": "Back 4 Blood",
+    "platform": "Xbox One / Xbox Series X",
+    "year": 2021,
+    "genre": "Acción",
+    "region": "Región pendiente de confirmar",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Estado pendiente de revisar",
+    "description": "Incluye funda exterior de cartón, pin Pinfinity y folleto adicional.",
+    "color": "#3c8f6e",
+    "marketValue": 15,
+    "marketMin": 15,
+    "marketMax": 15,
+    "valuationDate": "2026-11-14",
+    "photos": [],
+    "coverPhoto": null
+  },
+  {
+    "id": "rgv-0005",
+    "title": "Yakuza: Like a Dragon – Day Ichi Steelbook Edition",
+    "platform": "Xbox One / Xbox Series X",
+    "year": 2020,
+    "genre": "RPG",
+    "region": "Región pendiente de confirmar",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Estado pendiente de revisar",
+    "description": "Incluye steelbook, funda y extras.",
+    "color": "#3c8f6e",
+    "marketValue": 22,
+    "marketMin": 22,
+    "marketMax": 22,
+    "valuationDate": "2026-11-14",
+    "photos": [],
+    "coverPhoto": null
+  },
+  {
+    "id": "rgv-0006",
+    "title": "Star Wars Jedi: Survivor",
+    "platform": "Xbox Series X",
+    "year": 2023,
+    "genre": "Acción y aventura",
+    "region": "Edición europea FR/NL",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Estado pendiente de revisar",
+    "description": "Jugable completamente en español, según la información del propietario.",
+    "color": "#3c8f6e",
+    "marketValue": 13,
+    "marketMin": 13,
+    "marketMax": 13,
+    "valuationDate": "2026-11-14",
+    "photos": [],
+    "coverPhoto": null
+  },
+  {
+    "id": "rgv-0007",
+    "title": "LEGO DC Super-Villains",
+    "platform": "Xbox One",
+    "year": 2018,
+    "genre": "Acción y aventura",
+    "region": "Edición italiana PAL",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Bueno",
+    "description": "Incluye funda exterior de cartón y folleto promocional LEGO.",
+    "color": "#3c8f6e",
+    "marketValue": 9,
+    "marketMin": 7,
+    "marketMax": 12,
+    "valuationDate": "2026-11-14",
+    "photos": [],
+    "coverPhoto": null
+  },
+  {
+    "id": "rgv-0008",
+    "title": "Dragon Ball Xenoverse 2",
+    "platform": "Xbox One",
+    "year": 2016,
+    "genre": "Lucha",
+    "region": "PAL Europa, ESP/PT",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Muy bueno, valoración visual provisional",
+    "description": "Incluye folletos de Bandai Namco. Galería parcial: faltan portada y contraportada.",
+    "color": "#3c8f6e",
+    "marketValue": 8,
+    "marketMin": 6,
+    "marketMax": 11,
+    "valuationDate": "2026-11-14",
     "photos": [
       {
-        "src": "images/rgv-0001-front.webp",
-        "label": "Portada"
+        "src": "images/rgv-0008-inside.webp",
+        "label": "Interior abierto y folletos",
+        "kind": "inside"
       },
       {
-        "src": "images/rgv-0001-back.webp",
-        "label": "Contraportada"
-      },
-      {
-        "src": "images/rgv-0001-inside.webp",
-        "label": "Interior y disco"
+        "src": "images/rgv-0008-disc.webp",
+        "label": "Disco por detrás (cara de lectura)",
+        "kind": "discBack"
       }
-    ]
+    ],
+    "coverPhoto": null
+  },
+  {
+    "id": "rgv-0009",
+    "title": "Star Wars Battlefront",
+    "platform": "Xbox One",
+    "year": 2015,
+    "genre": "Acción",
+    "region": "PAL España",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Muy bueno, valoración visual provisional",
+    "description": "Edición de 2015. Incluye varios folletos; no se garantiza la validez del contenido descargable.",
+    "color": "#3c8f6e",
+    "marketValue": 7,
+    "marketMin": 5,
+    "marketMax": 10,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0009-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0009-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0009-inside.webp",
+        "label": "Interior abierto y folletos",
+        "kind": "inside"
+      },
+      {
+        "src": "images/rgv-0009-disc.webp",
+        "label": "Disco por detrás (cara de lectura)",
+        "kind": "discBack"
+      }
+    ],
+    "coverPhoto": "images/rgv-0009-front.webp"
+  },
+  {
+    "id": "rgv-0010",
+    "title": "NBA 2K14",
+    "platform": "Xbox One",
+    "year": 2013,
+    "genre": "Deportes",
+    "region": "PAL España",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Bueno, con señales de uso",
+    "description": "Incluye folleto con arrugas. Sin prueba funcional documentada.",
+    "color": "#3c8f6e",
+    "marketValue": 4,
+    "marketMin": 3,
+    "marketMax": 6,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0010-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0010-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0010-disc.webp",
+        "label": "Disco por detrás (cara de lectura)",
+        "kind": "discBack"
+      },
+      {
+        "src": "images/rgv-0010-booklet.webp",
+        "label": "Manual / folleto",
+        "kind": "extras"
+      }
+    ],
+    "coverPhoto": "images/rgv-0010-front.webp"
   }
 ]
