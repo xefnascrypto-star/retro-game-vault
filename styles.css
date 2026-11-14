@@ -7,9 +7,9 @@
 .value-overview > div{min-width:0;flex:1}.value-overview span,.value-overview small{display:block;line-height:1.5;overflow-wrap:anywhere}.value-overview strong{display:block;line-height:1.15;white-space:nowrap}.value-overview .history-button{flex-shrink:0}.summary div{min-width:0}.summary strong{white-space:nowrap}@media(max-width:700px){.value-overview{display:flex;flex-direction:column;align-items:stretch;gap:22px}.value-overview > div{width:100%}.value-overview strong{font-size:38px}.value-overview small{font-size:12px}.summary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 14px}.summary p{display:none}.summary strong{font-size:clamp(23px,7vw,32px)}}
 
 /* Galería fotográfica de ejemplares reales */
-.art.has-photo{padding:0;justify-content:flex-end;background:#171a20}
+.art.has-photo{height:auto;aspect-ratio:3/4;padding:0;justify-content:flex-end;background:#171a20}
 .art.has-photo::after{display:none}
-.card-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#111319}
+.card-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;background:#111319}
 .art.has-photo>small,.art.has-photo>strong,.art.has-photo>span{display:none}
 .photo-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:20px 0}
 .photo-thumb{padding:0;border:1px solid #414853;border-radius:8px;background:#15171d;color:#f3f0e8;overflow:hidden;text-align:center}

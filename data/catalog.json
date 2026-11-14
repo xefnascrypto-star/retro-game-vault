@@ -157,6 +157,11 @@
         "kind": "extras"
       },
       {
+        "src": "images/rgv-0004-07-accessory.webp",
+        "label": "Lomo de funda con roces",
+        "kind": "accessory"
+      },
+      {
         "src": "images/rgv-0004-08-accessory.webp",
         "label": "Caja interior y pin",
         "kind": "accessory"
@@ -164,6 +169,11 @@
       {
         "src": "images/rgv-0004-09-accessory.webp",
         "label": "Pin Pinfinity en su envoltorio",
+        "kind": "accessory"
+      },
+      {
+        "src": "images/rgv-0004-10-accessory.webp",
+        "label": "Detalle del extremo del lomo",
         "kind": "accessory"
       }
     ],

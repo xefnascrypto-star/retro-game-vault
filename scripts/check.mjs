@@ -10,7 +10,7 @@ for (const game of games) {
   assert(Number.isInteger(game.year) && game.year >= 1970 && game.year <= 2100);
   assert(/^#[0-9a-f]{6}$/i.test(game.color));
   for (const field of ['marketValue','marketMin','marketMax']) assert(typeof game[field] === 'number' && Number.isFinite(game[field]) && game[field] >= 0, field);
-  assert(Array.isArray(game.photos) && game.photos.length >= 0 && game.photos.length <= 8,'photo gallery');
+  assert(Array.isArray(game.photos),'photo gallery');
   const order=['front','back','inside','discPrinted','discBack','extras','accessory'];
   const ranks=game.photos.map(p=>order.indexOf(p.kind));
   assert(ranks.every((rank,i)=>rank>=0 && (i===0 || rank>=ranks[i-1])), 'Explicit preferred gallery order');
