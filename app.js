@@ -8,6 +8,16 @@ function element(tag, text, className) { const node = document.createElement(tag
 function showDetail(game) {
   const content = $('detail-content'); content.replaceChildren(element('p', `${game.platform} / ${game.year}`, 'eyebrow'), element('h2', game.title));
   $('detail-content').querySelector('h2').id = 'detail-title';
+  if (game.photos?.length) {
+    const gallery = element('div', undefined, 'photo-gallery');
+    game.photos.forEach((photo, index) => {
+      const button=element('button',undefined,'photo-thumb'); button.type='button'; button.setAttribute('aria-label', 'Ampliar '+photo.label);
+      const img=element('img'); img.src=photo.src; img.alt=photo.label+' de '+game.title; img.loading=index===0?'eager':'lazy';
+      button.append(img,element('span',photo.label));
+      button.addEventListener('click',()=>showPhoto(game, index)); gallery.append(button);
+    });
+    content.append(gallery);
+  }
   content.append(element('p', game.description));
   const list = element('dl');
   for (const [label, value] of [['Plataforma', game.platform], ['Año', game.year], ['Género', game.genre], ['Región', game.region], ['Formato', game.format], ['Estado', game.status], ['Conservación', game.condition]]) list.append(element('dt', label), element('dd', value));
@@ -15,6 +25,15 @@ function showDetail(game) {
   content.append(list, element('p', 'Ejemplar real de la colección · fotografía propia pendiente de integrar.'));
   $('detail').showModal();
 }
+function showPhoto(game,index) {
+  const viewer=$('photo-viewer');
+  const photo=game.photos[index];
+  $('photo-image').src=photo.src;
+  $('photo-image').alt=photo.label+' de '+game.title;
+  $('photo-caption').textContent=photo.label+' · '+game.title;
+  viewer.showModal();
+}
+$('photo-close').addEventListener('click',()=>$('photo-viewer').close());
 function render() {
   const query = normalize($('search').value.trim());
   const filtered = games.filter(g => normalize(`${g.title} ${g.platform} ${g.genre}`).includes(query) && (!$('platform').value || g.platform === $('platform').value) && (!$('status').value || g.status === $('status').value));
@@ -23,6 +42,7 @@ function render() {
   for (const game of filtered) {
     const card = element('button', undefined, 'card'); card.type = 'button'; card.setAttribute('aria-label', `Ver ficha de ${game.title}`);
     const art = element('div', undefined, 'art'); art.style.setProperty('--color', game.color); art.setAttribute('aria-hidden', 'true');
+    if(game.photos?.[0]?.src) {const cover=element('img');cover.src=game.photos[0].src;cover.alt='Portada de '+game.title;cover.loading='lazy';cover.className='card-photo';art.classList.add('has-photo');art.append(cover);}
     art.append(element('small', game.platform), element('strong', game.title), element('span', `${game.year} / COLECCIÓN REAL`));
     const body = element('div', undefined, 'card-body'); body.append(element('span', game.platform, 'tag'), element('h3', game.title), element('div', `${game.year} · ${game.genre}`, 'meta'), element('div', `${game.status === 'En colección' ? '●' : '◇'} ${game.status}`, `state ${game.status === 'Lista de deseos' ? 'wish' : ''}`));
     card.append(art, body); card.addEventListener('click', () => showDetail(game)); $('grid').append(card);
