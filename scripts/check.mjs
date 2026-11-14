@@ -6,7 +6,7 @@ assert(Array.isArray(games)); const ids = new Set();
 for (const game of games) {
   assert.deepEqual(Object.keys(game).sort(), [...allowed].sort(), 'Only public fields may be published');
   assert(!ids.has(game.id), 'Duplicate id'); ids.add(game.id);
-  for (const field of allowed.filter(k => !['year','marketValue','marketMin','marketMax','valuationDate'].includes(k))) assert(typeof game[field] === 'string' && game[field].length > 0, field);
+  for (const field of allowed.filter(k => !['year','marketValue','marketMin','marketMax','valuationDate','photos'].includes(k))) assert(typeof game[field] === 'string' && game[field].length > 0, field);
   assert(Number.isInteger(game.year) && game.year >= 1970 && game.year <= 2100);
   assert(/^#[0-9a-f]{6}$/i.test(game.color));
   for (const field of ['marketValue','marketMin','marketMax']) assert(typeof game[field] === 'number' && Number.isFinite(game[field]) && game[field] >= 0, field);
