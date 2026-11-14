@@ -14,6 +14,20 @@
     "marketValue": 13,
     "marketMin": 10,
     "marketMax": 16,
-    "valuationDate": "2026-11-13"
+    "valuationDate": "2026-11-13",
+    "photos": [
+      {
+        "src": "images/rgv-0001-front.webp",
+        "label": "Portada"
+      },
+      {
+        "src": "images/rgv-0001-back.webp",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0001-inside.webp",
+        "label": "Interior y disco"
+      }
+    ]
   }
 ]
