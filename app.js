@@ -12,7 +12,7 @@ function showDetail(game) {
     const gallery = element('div', undefined, 'photo-gallery');
     game.photos.forEach((photo, index) => {
       const button=element('button',undefined,'photo-thumb'); button.type='button'; button.setAttribute('aria-label', 'Ampliar '+photo.label);
-      const img=element('img'); img.src=photo.src; img.alt=photo.label+' de '+game.title; img.loading=index===0?'eager':'lazy';
+      const img=element('img'); img.src=photo.src; img.alt=photo.label+' de '+game.title; img.loading=index===0?'eager':'lazy';img.addEventListener('error',()=>{button.hidden=true;});
       button.append(img,element('span',photo.label));
       button.addEventListener('click',()=>showPhoto(game, index)); gallery.append(button);
     });
@@ -42,7 +42,7 @@ function render() {
   for (const game of filtered) {
     const card = element('button', undefined, 'card'); card.type = 'button'; card.setAttribute('aria-label', `Ver ficha de ${game.title}`);
     const art = element('div', undefined, 'art'); art.style.setProperty('--color', game.color); art.setAttribute('aria-hidden', 'true');
-    if(game.photos?.[0]?.src) {const cover=element('img');cover.src=game.photos[0].src;cover.alt='Portada de '+game.title;cover.loading='lazy';cover.className='card-photo';art.classList.add('has-photo');art.append(cover);}
+    if(game.photos?.[0]?.src) {const cover=element('img');cover.src=game.photos[0].src;cover.alt='Portada de '+game.title;cover.loading='lazy';cover.className='card-photo';cover.addEventListener('error',()=>{cover.remove();art.classList.remove('has-photo');});art.classList.add('has-photo');art.append(cover);}
     art.append(element('small', game.platform), element('strong', game.title), element('span', `${game.year} / COLECCIÓN REAL`));
     const body = element('div', undefined, 'card-body'); body.append(element('span', game.platform, 'tag'), element('h3', game.title), element('div', `${game.year} · ${game.genre}`, 'meta'), element('div', `${game.status === 'En colección' ? '●' : '◇'} ${game.status}`, `state ${game.status === 'Lista de deseos' ? 'wish' : ''}`));
     card.append(art, body); card.addEventListener('click', () => showDetail(game)); $('grid').append(card);
