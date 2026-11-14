@@ -778,5 +778,355 @@
       }
     ],
     "coverPhoto": "images/rgv-0020-front.webp"
+  },
+  {
+    "id": "rgv-0021",
+    "title": "Test Drive Unlimited Solar Crown",
+    "platform": "Xbox Series X",
+    "year": 2024,
+    "genre": "Conducción",
+    "region": "Edición europea (PEGI)",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con buen aspecto visual; disco presente. Cara de lectura y funcionamiento sin comprobar.",
+    "description": "Edición estándar europea. Caja, carátula y disco original de Test Drive; hoja de garantía visible. No se identifica un manual independiente.",
+    "color": "#3c8f6e",
+    "marketValue": 14,
+    "marketMin": 14,
+    "marketMax": 14,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0021-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0021-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0021-inside.webp",
+        "label": "Interior abierto con disco y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0021-front.webp"
+  },
+  {
+    "id": "rgv-0022",
+    "title": "Assassin's Creed III: Liberation",
+    "platform": "PS Vita",
+    "year": 2012,
+    "genre": "Acción y aventura",
+    "region": "Edición europea (PEGI)",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con buen aspecto visual; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición estándar europea. Incluye caja, carátula y cartucho PS Vita. No se observa manual independiente.",
+    "color": "#3c8f6e",
+    "marketValue": 12,
+    "marketMin": 12,
+    "marketMax": 12,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0022-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0022-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0022-inside.webp",
+        "label": "Interior abierto con cartucho",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0022-front.webp"
+  },
+  {
+    "id": "rgv-0023",
+    "title": "WRC 4: FIA World Rally Championship",
+    "platform": "PS Vita",
+    "year": 2013,
+    "genre": "Conducción y rally",
+    "region": "Edición europea (PEGI)",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con buen aspecto visual; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición estándar europea. Incluye caja, carátula y cartucho PS Vita. No se observa manual independiente.",
+    "color": "#3c8f6e",
+    "marketValue": 10,
+    "marketMin": 10,
+    "marketMax": 10,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0023-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0023-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0023-inside.webp",
+        "label": "Interior abierto con cartucho",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0023-front.webp"
+  },
+  {
+    "id": "rgv-0024",
+    "title": "Chorus — Day One Edition",
+    "platform": "Xbox One / Series X",
+    "year": 2021,
+    "genre": "Acción y combate espacial",
+    "region": "Edición europea (PEGI)",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso y pegatina visible; disco presente. Cara de lectura y funcionamiento sin comprobar.",
+    "description": "Day One Edition, indicada en la portada. Incluye caja, carátula y disco original de Chorus. No se observan manuales ni se confirma contenido descargable.",
+    "color": "#3c8f6e",
+    "marketValue": 8,
+    "marketMin": 8,
+    "marketMax": 8,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0024-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0024-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0024-inside.webp",
+        "label": "Interior abierto con disco y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0024-front.webp"
+  },
+  {
+    "id": "rgv-0025",
+    "title": "PES 2011",
+    "platform": "Xbox 360",
+    "year": 2010,
+    "genre": "Deportes · Fútbol",
+    "region": "PAL Europa",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; disco y manual visibles. Cara de lectura y funcionamiento sin comprobar.",
+    "description": "Edición estándar PAL europea. Incluye caja, carátula, disco y manual PES 2011.",
+    "color": "#3c8f6e",
+    "marketValue": 3,
+    "marketMin": 3,
+    "marketMax": 3,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0025-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0025-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0025-inside.webp",
+        "label": "Interior abierto con disco y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0025-front.webp"
+  },
+  {
+    "id": "rgv-0026",
+    "title": "PES 2009",
+    "platform": "Xbox 360",
+    "year": 2008,
+    "genre": "Deportes · Fútbol",
+    "region": "PAL Europa",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; disco y manual visibles. Cara de lectura y funcionamiento sin comprobar.",
+    "description": "Edición estándar PAL europea. Incluye caja, carátula, disco y manual PES 2009.",
+    "color": "#3c8f6e",
+    "marketValue": 2,
+    "marketMin": 2,
+    "marketMax": 2,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0026-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0026-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0026-inside.webp",
+        "label": "Interior abierto con disco y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0026-front.webp"
+  },
+  {
+    "id": "rgv-0027",
+    "title": "PES 2008",
+    "platform": "Xbox 360",
+    "year": 2007,
+    "genre": "Deportes · Fútbol",
+    "region": "PAL Europa",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso y pegatina visible; disco y manual presentes. Cara de lectura y funcionamiento sin comprobar.",
+    "description": "Edición estándar PAL europea. Incluye caja, carátula, disco y manual PES 2008.",
+    "color": "#3c8f6e",
+    "marketValue": 2,
+    "marketMin": 2,
+    "marketMax": 2,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0027-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0027-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0027-inside.webp",
+        "label": "Interior abierto con disco y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0027-front.webp"
+  },
+  {
+    "id": "rgv-0028",
+    "title": "PES 6",
+    "platform": "Xbox 360",
+    "year": 2006,
+    "genre": "Deportes · Fútbol",
+    "region": "PAL Europa",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso y pegatina visible; disco y manual presentes. Cara de lectura y funcionamiento sin comprobar.",
+    "description": "Edición estándar PAL europea. Incluye caja, carátula, disco y manual PES 6.",
+    "color": "#3c8f6e",
+    "marketValue": 3,
+    "marketMin": 3,
+    "marketMax": 3,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0028-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0028-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0028-inside.webp",
+        "label": "Interior abierto con disco y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0028-front.webp"
+  },
+  {
+    "id": "rgv-0029",
+    "title": "FIFA 11",
+    "platform": "Xbox 360",
+    "year": 2010,
+    "genre": "Deportes · Fútbol",
+    "region": "PAL Europa",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; disco y documentación visibles. Cara de lectura y funcionamiento sin comprobar.",
+    "description": "Edición estándar PAL europea. Incluye caja, carátula, disco y documentación con referencia al pase online; no se garantiza la validez de códigos.",
+    "color": "#3c8f6e",
+    "marketValue": 2,
+    "marketMin": 2,
+    "marketMax": 2,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0029-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0029-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0029-inside.webp",
+        "label": "Interior abierto con disco y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0029-front.webp"
+  },
+  {
+    "id": "rgv-0030",
+    "title": "FIFA 13",
+    "platform": "Xbox 360",
+    "year": 2012,
+    "genre": "Deportes · Fútbol",
+    "region": "PAL Europa",
+    "format": "Disco físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; disco y folleto visibles. Cara de lectura y funcionamiento sin comprobar.",
+    "description": "Edición estándar PAL europea. Incluye caja, carátula, disco y folleto FIFA 13 Ultimate Team; no se identifica un manual independiente.",
+    "color": "#3c8f6e",
+    "marketValue": 2,
+    "marketMin": 2,
+    "marketMax": 2,
+    "valuationDate": "2026-11-14",
+    "photos": [
+      {
+        "src": "images/rgv-0030-front.webp",
+        "label": "Portada frontal con caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0030-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0030-inside.webp",
+        "label": "Interior abierto con disco y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0030-front.webp"
   }
 ]

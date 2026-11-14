@@ -45,6 +45,6 @@ for (const asset of ['styles.css','app.js','data/catalog.json']) await readFile(
 assert(html.includes('lang="es"') && html.includes('name="viewport"'));
 console.log(`OK: ${games.length} public records; unique IDs, strict field allowlist, local assets and safe text rendering.`);
 
-assert.equal(games.length,20); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),203);
-assert.equal(games.reduce((n,g)=>n+g.photos.length,0),76);
-for (const game of games.slice(10)) assert.deepEqual(game.photos.map(p=>p.kind),['front','back','inside'], 'Lot 02 requires all three original photographs');
+assert.equal(games.length,30); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),261);
+assert.equal(games.reduce((n,g)=>n+g.photos.length,0),106);
+for (const game of games.slice(10)) assert.deepEqual(game.photos.map(p=>p.kind),['front','back','inside'], 'Lots 02 and 03 require all three original photographs');
