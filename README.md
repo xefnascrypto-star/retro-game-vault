@@ -1,10 +1,10 @@
-# Retro Game Vault · Lotes 01–07
+# Retro Game Vault · Lotes 01–08
 
-Setenta juegos y 747 € de valoración provisional: 618 € de los primeros seis lotes y 129 € del lote 07. Se conservan las valoraciones previas.
+Ochenta juegos y 853 € de valoración provisional: 747 € de los primeros siete lotes y 106 € del lote 08. Se conservan las valoraciones previas.
 
 ## Fotografías disponibles
 
-223 fotografías originales enlazadas: 46 del lote 01, 30 de cada lote 02, 03, 04, 06 y 07 y 27 del lote 05. Cada ficha 011–040 incluye frontal cerrado, contraportada e interior; GTA V muestra sus dos discos. Las imágenes públicas están optimizadas en WebP, sin EXIF ni XMP. Las pegatinas con precios y procedencia de FIFA 15 llevan máscaras opacas; los originales sin modificar se guardan solo en el repositorio privado. No se garantiza la validez de códigos antiguos ni el estado de caras de lectura no fotografiadas.
+253 fotografías originales enlazadas: 46 del lote 01, 30 de cada lote 02, 03, 04, 06, 07 y 08 y 27 del lote 05. Cada ficha 011–040 incluye frontal cerrado, contraportada e interior; GTA V muestra sus dos discos. Las imágenes públicas están optimizadas en WebP, sin EXIF ni XMP. Las pegatinas con precios y procedencia de FIFA 15 llevan máscaras opacas; los originales sin modificar se guardan solo en el repositorio privado. No se garantiza la validez de códigos antiguos ni el estado de caras de lectura no fotografiadas.
 
 ## Validar y ejecutar
 Node 22 o posterior. Sin instalar paquetes:
@@ -23,7 +23,7 @@ Abrir http://127.0.0.1:4173. Las rutas relativas son compatibles con /retro-game
 4. Incluir data/, images/, scripts/, .github/workflows/pages.yml, .nojekyll y .gitignore. Ver → Mostrar → Elementos ocultos en el Explorador permite comprobarlos. GitHub Desktop permite copiar todos los archivos preservando las rutas.
 5. Esperar a que terminen las cargas, escribir un mensaje y pulsar Commit changes. Revisar el pull request y fusionarlo.
 6. Settings → Pages → Source: GitHub Actions. Comprobar que el workflow termina correctamente en Actions.
-7. Abrir https://xefnascrypto-star.github.io/retro-game-vault/ y comprobar setenta juegos, 747 €, filtros, fichas y ampliación de fotografías.
+7. Abrir https://xefnascrypto-star.github.io/retro-game-vault/ y comprobar ochenta juegos, 853 €, filtros, fichas y ampliación de fotografías.
 
 GitHub no descomprime los ZIP automáticamente.
 Documentación: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
@@ -84,3 +84,11 @@ Las estimaciones por juego, rangos, confianza y fuentes consultadas el 15-11-202
 | rgv-0070 | Infinity Strash: Dragon Quest The Adventure of Dai | 15 | 15–22 | baja |
 
 La evidencia incluye guías y ventas eBay recogidas por PriceCharting; las consultas directas a eBay finalizados fueron inaccesibles. Los precios en USD se documentan como referencias, no como equivalencias exactas en EUR. Anuncios, precios de tienda y estimaciones españolas se distinguen de las ventas. Las importaciones japonesas y Cosmic Edition tienen menor evidencia regional: confianza baja. No se crean series históricas ficticias ni se garantiza un precio de venta. El ZIP de entrada permanece intacto.
+
+## Lote 08 — 15/11/2026
+
+Diez juegos añadidos, IDs rgv-0071 a rgv-0080: 106 € provisionales. Catálogo: **80 juegos, 853 € y 253 fotografías**. Los primeros 70 registros, sus 223 fotografías y su histórico se conservan sin cambios.
+
+Treinta fotografías originales convertidas a WebP; siete giros de orientación. Pegatinas, desgaste y códigos comerciales conservados. No se observan códigos privados visibles en estas imágenes. Todos los ejemplares están abiertos y sin prueba funcional. art of rally Deluxe muestra material impreso; parche sin confirmación independiente. Evil Nun Unholy muestra caja, cartucho, presentación y materiales impresos; no se verifica disponibilidad de banda sonora digital.
+
+Rangos, confianza, fuentes y límites de las estimaciones en [data/valuations-lot08.json](data/valuations-lot08.json). PriceCharting agrega ventas en USD; cifras EUR son estimaciones conservadoras, no conversiones exactas. Evil Nun usa anuncio como contraste, no venta realizada. Ashwalkers tiene referencia de edición distinta y confianza baja. No se incluyen compras ni datos privados.

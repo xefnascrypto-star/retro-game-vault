@@ -1,0 +1,202 @@
+{
+  "batch": "08",
+  "valuationDate": "2026-11-15",
+  "currency": "EUR",
+  "total": 106,
+  "previousTotal": 747,
+  "collectionTotal": 853,
+  "method": "Estimaciones conservadoras en euros para unidades usadas, sin prueba funcional. Guías en USD como referencia, sin equivalencia exacta con EUR. No se valoran códigos digitales. Anuncios no equivalen a ventas realizadas.",
+  "limitations": "Ventas agregadas por PriceCharting no verificadas independientemente en eBay. Ashwalkers tiene referencia de edición Survivor diferente: confianza baja. Evil Nun se apoya en anuncio, no venta; art of rally tiene extras parcialmente comprobados.",
+  "items": [
+    {
+      "itemId": "rgv-0071",
+      "title": "Young Souls",
+      "estimatedValue": 16,
+      "rangeMin": 16,
+      "rangeMax": 25,
+      "valuationDate": "2026-11-15",
+      "confidence": "media",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL CIB 25,14 USD; ventas agregadas de 17,73 y 20,12 USD. Referencia de ejemplar europeo usado con caja, con caja y cartucho comprobados.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-nintendo-switch/young-souls",
+          "type": "sales_aggregate",
+          "note": "Guía PAL CIB 25,14 USD; ventas agregadas de 17,73 y 20,12 USD. Referencia de ejemplar europeo usado con caja, con caja y cartucho comprobados."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0072",
+      "title": "Teenage Mutant Ninja Turtles Arcade: Wrath of the Mutants",
+      "estimatedValue": 10,
+      "rangeMin": 10,
+      "rangeMax": 16,
+      "valuationDate": "2026-11-15",
+      "confidence": "media",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "CIB PAL 13,57 USD; venta recogida de caja y cartucho 12 USD. Referencia provisional para unidad usada; no se confirma edición de esta unidad.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-nintendo-switch/teenage-mutant-ninja-turtles-arcade-wrath-of-the-mutants",
+          "type": "sales_aggregate",
+          "note": "CIB PAL 13,57 USD; venta recogida de caja y cartucho 12 USD. Referencia provisional para unidad usada; no se confirma edición de esta unidad."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0073",
+      "title": "Greak: Memories of Azur",
+      "estimatedValue": 13,
+      "rangeMin": 13,
+      "rangeMax": 20,
+      "valuationDate": "2026-11-15",
+      "confidence": "media",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "CIB PAL 24,05 USD; ventas recogidas de 13,33 y 16,25 USD. Estimación baja con caja y cartucho visibles.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-nintendo-switch/greak-memories-of-azur",
+          "type": "sales_aggregate",
+          "note": "CIB PAL 24,05 USD; ventas recogidas de 13,33 y 16,25 USD. Estimación baja con caja y cartucho visibles."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0074",
+      "title": "Ashwalkers: A Survival Journey",
+      "estimatedValue": 13,
+      "rangeMin": 13,
+      "rangeMax": 20,
+      "valuationDate": "2026-11-15",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "La referencia encontrada es Survivor Edition: guía 26,02 USD CIB sin ventas CIB listadas; unidades nuevas desde 23,04 USD. No se atribuye esa edición ni sus extras al ejemplar fotografiado. Valor condicionado, requiere revisión.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-nintendo-switch/ashwalkers-a-survival-journey-survivor%27s-edition",
+          "type": "sales_aggregate",
+          "note": "La referencia encontrada es Survivor Edition: guía 26,02 USD CIB sin ventas CIB listadas; unidades nuevas desde 23,04 USD. No se atribuye esa edición ni sus extras al ejemplar fotografiado. Valor condicionado, requiere revisión."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0075",
+      "title": "Spacebase Startopia",
+      "estimatedValue": 8,
+      "rangeMin": 8,
+      "rangeMax": 12,
+      "valuationDate": "2026-11-15",
+      "confidence": "media",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Índice PAL 12,58 USD CIB, 10,06 USD suelto. Referencia conservadora para unidad usada, con caja y cartucho comprobados.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/es/console/pal-nintendo-switch?genre-name=strategy",
+          "type": "sales_aggregate",
+          "note": "Índice PAL 12,58 USD CIB, 10,06 USD suelto. Referencia conservadora para unidad usada, con caja y cartucho comprobados."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0076",
+      "title": "art of rally — Deluxe Edition",
+      "estimatedValue": 18,
+      "rangeMin": 18,
+      "rangeMax": 25,
+      "valuationDate": "2026-11-15",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL Deluxe CIB 25,02 USD; referencia española secundaria 30 EUR. Muestra escasa. Material impreso visible; parche sin confirmar. Descuento por desgaste de funda.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-nintendo-switch/art-of-rally-deluxe-edition",
+          "type": "sales_aggregate",
+          "note": "Guía PAL Deluxe CIB 25,02 USD; referencia española secundaria 30 EUR. Muestra escasa. Material impreso visible; parche sin confirmar. Descuento por desgaste de funda."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0077",
+      "title": "Evil Nun: The Broken Mask — Unholy Edition",
+      "estimatedValue": 12,
+      "rangeMin": 12,
+      "rangeMax": 18,
+      "valuationDate": "2026-11-15",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Anuncio usado Unholy 15 EUR, no prueba de venta; contraste nuevo 26,90 EUR https://elminimo.es/juego/evil-nun-the-broken-mask-unholy-edition-switch . Ajuste bajo por desgaste visible y sin prueba funcional.",
+      "sources": [
+        {
+          "url": "https://www.todocoleccion.net/videojuegos-consolas-nintendo-switch-segunda-mano/evil-nun-the-broken-mask-unholy-edition~x713353175",
+          "type": "asking_price",
+          "note": "Anuncio usado Unholy 15 EUR, no prueba de venta; contraste nuevo 26,90 EUR https://elminimo.es/juego/evil-nun-the-broken-mask-unholy-edition-switch . Ajuste bajo por desgaste visible y sin prueba funcional."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0078",
+      "title": "Lemmings — Platinum",
+      "estimatedValue": 5,
+      "rangeMin": 5,
+      "rangeMax": 8,
+      "valuationDate": "2026-11-15",
+      "confidence": "media",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL Platinum CIB 10,20 USD. Anuncio de tienda española Platinum 9,99 EUR: https://www.retroloco.es/producto/lemmings-esp-platinum/ . Precio bajo por etiquetas y restos de adhesivo; no se toma la tienda por venta realizada.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/offers?product=91421",
+          "type": "sales_aggregate",
+          "note": "Guía PAL Platinum CIB 10,20 USD. Anuncio de tienda española Platinum 9,99 EUR: https://www.retroloco.es/producto/lemmings-esp-platinum/ . Precio bajo por etiquetas y restos de adhesivo; no se toma la tienda por venta realizada."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0079",
+      "title": "MediEvil: Resurrección — Platinum",
+      "estimatedValue": 7,
+      "rangeMin": 7,
+      "rangeMax": 11,
+      "valuationDate": "2026-11-15",
+      "confidence": "media",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Índice PAL PSP Platinum CIB 11,04 USD. Se valora la reedición Platinum, no la edición inicial ni el remake de PS4. Ajuste por uso y etiqueta comercial interior.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/search-products?q=MediEvil&type=prices",
+          "type": "sales_aggregate",
+          "note": "Índice PAL PSP Platinum CIB 11,04 USD. Se valora la reedición Platinum, no la edición inicial ni el remake de PS4. Ajuste por uso y etiqueta comercial interior."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0080",
+      "title": "LocoRoco — Platinum",
+      "estimatedValue": 4,
+      "rangeMin": 4,
+      "rangeMax": 7,
+      "valuationDate": "2026-11-15",
+      "confidence": "media",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Ventas agregadas Platinum de 7,38 USD y muestra secundaria reciente 3,34 USD. La pegatina de 5 EUR no se trata como compra ni tasación actual.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-psp/locoroco-platinum",
+          "type": "sales_aggregate",
+          "note": "Ventas agregadas Platinum de 7,38 USD y muestra secundaria reciente 3,34 USD. La pegatina de 5 EUR no se trata como compra ni tasación actual."
+        }
+      ]
+    }
+  ]
+}

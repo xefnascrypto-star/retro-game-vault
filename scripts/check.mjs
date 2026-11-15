@@ -45,8 +45,8 @@ for (const asset of ['styles.css','app.js','data/catalog.json']) await readFile(
 assert(html.includes('lang="es"') && html.includes('name="viewport"'));
 console.log(`OK: ${games.length} public records; unique IDs, strict field allowlist, local assets and safe text rendering.`);
 
-assert.equal(games.length,70); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),747);
-assert.equal(games.reduce((n,g)=>n+g.photos.length,0),223);
+assert.equal(games.length,80); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),853);
+assert.equal(games.reduce((n,g)=>n+g.photos.length,0),253);
 for (const game of games.slice(10)) {
  const sealed=['rgv-0045','rgv-0046','rgv-0047'].includes(game.id);
  assert.deepEqual(game.photos.map(p=>p.kind),sealed?['front','back']:['front','back','inside'],'Gallery must match available original photographs');
@@ -56,7 +56,7 @@ assert.equal(games.find(g=>g.id==='rgv-0040').photos.length,3);
 
 const codeInBox=games.find(g=>g.id==='rgv-0054');
 assert(codeInBox.format.includes('sin cartucho') && codeInBox.marketValue===2);
-assert.equal(games.slice(60).reduce((n,g)=>n+g.photos.length,0),30);
+assert.equal(games.slice(70).reduce((n,g)=>n+g.photos.length,0),30);
 
 const valuations=JSON.parse(await readFile('data/valuations-lot07.json','utf8'));
 assert.equal(valuations.items.length,10);
@@ -68,3 +68,7 @@ for(const v of valuations.items){
  assert.equal(v.valuationDate,game.valuationDate);
  assert(v.sources.length && v.sources.every(x=>x.url.startsWith('https://')));
 }
+
+const lot08=JSON.parse(await readFile("data/valuations-lot08.json","utf8"));
+assert.equal(lot08.items.length,10);assert.equal(lot08.total,106);assert.equal(lot08.items.reduce((s,v)=>s+v.estimatedValue,0),106);
+for(const v of lot08.items){const g=games.find(g=>g.id===v.itemId);assert(g && g.marketValue===v.estimatedValue && g.marketMin===v.rangeMin && g.marketMax===v.rangeMax && g.valuationDate===v.valuationDate);assert(v.provisional && v.digitalBonusValue===0 && ["baja","media","alta"].includes(v.confidence));assert(v.sources.length && v.sources.every(s=>s.url.startsWith("https://")));}

@@ -2513,5 +2513,355 @@
       }
     ],
     "coverPhoto": "images/rgv-0070-front.webp"
+  },
+  {
+    "id": "rgv-0071",
+    "title": "Young Souls",
+    "platform": "Nintendo Switch",
+    "year": 2022,
+    "genre": "Acción y RPG",
+    "region": "Europa · PEGI 16 · carátula multilingüe con español",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado y abierto; caja, cartucho y hoja de advertencias visibles. Etiqueta comercial en contraportada conservada.",
+    "description": "Usado y abierto; caja, cartucho y hoja de advertencias visibles. Etiqueta comercial en contraportada conservada. Funcionamiento e idiomas en ejecución sin comprobar. Año de lanzamiento en la plataforma, no fecha de fabricación de esta unidad. Valoración provisional del 15/11/2026; confianza media. Sin valor atribuido a contenido digital.",
+    "color": "#3c8f6e",
+    "marketValue": 16,
+    "marketMin": 16,
+    "marketMax": 25,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0071-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0071-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0071-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0071-front.webp"
+  },
+  {
+    "id": "rgv-0072",
+    "title": "Teenage Mutant Ninja Turtles Arcade: Wrath of the Mutants",
+    "platform": "Nintendo Switch",
+    "year": 2024,
+    "genre": "Acción · Beat em up",
+    "region": "Europa · PEGI 12 · carátula multilingüe con español",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado y abierto; caja y cartucho visibles. El cartucho aparece colocado al revés; no se altera la orientación correcta de la caja.",
+    "description": "Usado y abierto; caja y cartucho visibles. El cartucho aparece colocado al revés; no se altera la orientación correcta de la caja. Funcionamiento e idiomas en ejecución sin comprobar. Año de lanzamiento en la plataforma, no fecha de fabricación de esta unidad. Valoración provisional del 15/11/2026; confianza media. Sin valor atribuido a contenido digital.",
+    "color": "#3c8f6e",
+    "marketValue": 10,
+    "marketMin": 10,
+    "marketMax": 16,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0072-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0072-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0072-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0072-front.webp"
+  },
+  {
+    "id": "rgv-0073",
+    "title": "Greak: Memories of Azur",
+    "platform": "Nintendo Switch",
+    "year": 2021,
+    "genre": "Plataformas y puzle",
+    "region": "Europa · España · PEGI 7",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado y abierto; caja y cartucho visibles, con ilustración interior. Carátula y contraportada españolas.",
+    "description": "Usado y abierto; caja y cartucho visibles, con ilustración interior. Carátula y contraportada españolas. Funcionamiento e idiomas en ejecución sin comprobar. Año de lanzamiento en la plataforma, no fecha de fabricación de esta unidad. Valoración provisional del 15/11/2026; confianza media. Sin valor atribuido a contenido digital.",
+    "color": "#3c8f6e",
+    "marketValue": 13,
+    "marketMin": 13,
+    "marketMax": 20,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0073-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0073-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0073-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0073-front.webp"
+  },
+  {
+    "id": "rgv-0074",
+    "title": "Ashwalkers: A Survival Journey",
+    "platform": "Nintendo Switch",
+    "year": 2022,
+    "genre": "Supervivencia narrativa",
+    "region": "Europa · PEGI 12 · carátula multilingüe con español",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado y abierto; caja y cartucho visibles. Hoja de advertencias francesa. No se confirman extras ni edición Survivor.",
+    "description": "Usado y abierto; caja y cartucho visibles. Hoja de advertencias francesa. No se confirman extras ni edición Survivor. Funcionamiento e idiomas en ejecución sin comprobar. Año de lanzamiento en la plataforma, no fecha de fabricación de esta unidad. Valoración provisional del 15/11/2026; confianza baja. Sin valor atribuido a contenido digital.",
+    "color": "#3c8f6e",
+    "marketValue": 13,
+    "marketMin": 13,
+    "marketMax": 20,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0074-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0074-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0074-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0074-front.webp"
+  },
+  {
+    "id": "rgv-0075",
+    "title": "Spacebase Startopia",
+    "platform": "Nintendo Switch",
+    "year": 2021,
+    "genre": "Estrategia y gestión",
+    "region": "Europa · PEGI 7 · contraportada en español e italiano",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado y abierto; caja y cartucho visibles. Etiquetas comerciales conservadas en caja y contraportada.",
+    "description": "Usado y abierto; caja y cartucho visibles. Etiquetas comerciales conservadas en caja y contraportada. Funcionamiento e idiomas en ejecución sin comprobar. Año de lanzamiento en la plataforma, no fecha de fabricación de esta unidad. Valoración provisional del 15/11/2026; confianza media. Sin valor atribuido a contenido digital.",
+    "color": "#3c8f6e",
+    "marketValue": 8,
+    "marketMin": 8,
+    "marketMax": 12,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0075-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0075-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0075-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0075-front.webp"
+  },
+  {
+    "id": "rgv-0076",
+    "title": "art of rally — Deluxe Edition",
+    "platform": "Nintendo Switch",
+    "year": 2023,
+    "genre": "Conducción · Rally",
+    "region": "Europa · PEGI 3 · Deluxe Edition",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado y abierto; funda Deluxe con desgaste en bordes y esquinas, caja, cartucho y material impreso plegado visibles. La caja anuncia parche y póster; el parche no se confirma de manera independiente en la fotografía.",
+    "description": "Usado y abierto; funda Deluxe con desgaste en bordes y esquinas, caja, cartucho y material impreso plegado visibles. La caja anuncia parche y póster; el parche no se confirma de manera independiente en la fotografía. Funcionamiento e idiomas en ejecución sin comprobar. Año de lanzamiento en la plataforma, no fecha de fabricación de esta unidad. Valoración provisional del 15/11/2026; confianza baja. Sin valor atribuido a contenido digital.",
+    "color": "#3c8f6e",
+    "marketValue": 18,
+    "marketMin": 18,
+    "marketMax": 25,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0076-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0076-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0076-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0076-front.webp"
+  },
+  {
+    "id": "rgv-0077",
+    "title": "Evil Nun: The Broken Mask — Unholy Edition",
+    "platform": "Nintendo Switch",
+    "year": 2024,
+    "genre": "Terror y supervivencia",
+    "region": "Europa · PEGI 16 · Unholy Edition",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Ejemplar abierto. Se ven cartucho, caja, presentación Unholy, libro de arte, pieza con título Evil Nun y hoja impresa. No se comprueba el reverso de la pieza ni acceso a banda sonora; no se tasa contenido digital.",
+    "description": "Ejemplar abierto. Se ven cartucho, caja, presentación Unholy, libro de arte, pieza con título Evil Nun y hoja impresa. No se comprueba el reverso de la pieza ni acceso a banda sonora; no se tasa contenido digital. Funcionamiento e idiomas en ejecución sin comprobar. Año de lanzamiento en la plataforma, no fecha de fabricación de esta unidad. Valoración provisional del 15/11/2026; confianza baja. Sin valor atribuido a contenido digital.",
+    "color": "#3c8f6e",
+    "marketValue": 12,
+    "marketMin": 12,
+    "marketMax": 18,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0077-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0077-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0077-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0077-front.webp"
+  },
+  {
+    "id": "rgv-0078",
+    "title": "Lemmings — Platinum",
+    "platform": "PSP",
+    "year": 2006,
+    "genre": "Puzle y estrategia",
+    "region": "PAL España · Platinum",
+    "format": "Disco UMD físico",
+    "status": "En colección",
+    "condition": "Usado y abierto; caja, UMD y manual visibles. Restos de pegatinas en contraportada y etiqueta interior. Superficie de lectura y funcionamiento sin comprobar.",
+    "description": "Usado y abierto; caja, UMD y manual visibles. Restos de pegatinas en contraportada y etiqueta interior. Superficie de lectura y funcionamiento sin comprobar. Funcionamiento e idiomas en ejecución sin comprobar. Año de lanzamiento en la plataforma, no fecha de fabricación de esta unidad. Valoración provisional del 15/11/2026; confianza media. Sin valor atribuido a contenido digital.",
+    "color": "#3c8f6e",
+    "marketValue": 5,
+    "marketMin": 5,
+    "marketMax": 8,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0078-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0078-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0078-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0078-front.webp"
+  },
+  {
+    "id": "rgv-0079",
+    "title": "MediEvil: Resurrección — Platinum",
+    "platform": "PSP",
+    "year": 2005,
+    "genre": "Acción y aventura",
+    "region": "PAL España · Platinum",
+    "format": "Disco UMD físico",
+    "status": "En colección",
+    "condition": "Usado y abierto; caja, UMD y manual visibles. Etiqueta interior de GAME conservada. Superficie de lectura y funcionamiento sin comprobar.",
+    "description": "Usado y abierto; caja, UMD y manual visibles. Etiqueta interior de GAME conservada. Superficie de lectura y funcionamiento sin comprobar. Funcionamiento e idiomas en ejecución sin comprobar. Año de lanzamiento en la plataforma, no fecha de fabricación de esta unidad. Valoración provisional del 15/11/2026; confianza media. Sin valor atribuido a contenido digital.",
+    "color": "#3c8f6e",
+    "marketValue": 7,
+    "marketMin": 7,
+    "marketMax": 11,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0079-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0079-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0079-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0079-front.webp"
+  },
+  {
+    "id": "rgv-0080",
+    "title": "LocoRoco — Platinum",
+    "platform": "PSP",
+    "year": 2006,
+    "genre": "Plataformas",
+    "region": "PAL España · Platinum",
+    "format": "Disco UMD físico",
+    "status": "En colección",
+    "condition": "Usado y abierto; caja, UMD y manual visibles. Pegatina comercial de 5 EUR en contraportada, conservada. Superficie de lectura y funcionamiento sin comprobar.",
+    "description": "Usado y abierto; caja, UMD y manual visibles. Pegatina comercial de 5 EUR en contraportada, conservada. Superficie de lectura y funcionamiento sin comprobar. Funcionamiento e idiomas en ejecución sin comprobar. Año de lanzamiento en la plataforma, no fecha de fabricación de esta unidad. Valoración provisional del 15/11/2026; confianza media. Sin valor atribuido a contenido digital.",
+    "color": "#3c8f6e",
+    "marketValue": 4,
+    "marketMin": 4,
+    "marketMax": 7,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0080-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0080-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0080-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0080-front.webp"
   }
 ]
