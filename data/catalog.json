@@ -1478,5 +1478,340 @@
       }
     ],
     "coverPhoto": "images/rgv-0040-front.webp"
+  },
+  {
+    "id": "rgv-0041",
+    "title": "Magia en acción",
+    "platform": "Nintendo DS",
+    "year": 2008,
+    "genre": "Magia y minijuegos",
+    "region": "Europa · España",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho y documentación presentes. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición española. Carátula y manual en español. Caja, cartucho, manual y folleto Club Nintendo visibles. No se observa una baraja de cartas. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 5,
+    "marketMin": 5,
+    "marketMax": 5,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0041-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0041-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0041-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y documentación visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0041-front.webp"
+  },
+  {
+    "id": "rgv-0042",
+    "title": "New Super Mario Bros.",
+    "platform": "Nintendo DS",
+    "year": 2006,
+    "genre": "Plataformas",
+    "region": "Japón",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho y documentación presentes. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición japonesa. Carátula en japonés; caja amarilla, cartucho y documentación visibles. No se confirma que la documentación sea el manual original de esta edición. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 10,
+    "marketMin": 10,
+    "marketMax": 10,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0042-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0042-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0042-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y documentación visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0042-front.webp"
+  },
+  {
+    "id": "rgv-0043",
+    "title": "Angry Birds Trilogy",
+    "platform": "Nintendo 3DS",
+    "year": 2012,
+    "genre": "Puzle",
+    "region": "Europa",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho y documentación presentes. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición europea. Carátula multilingüe con textos en español; caja, cartucho y hoja de controles visibles. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 8,
+    "marketMin": 8,
+    "marketMax": 8,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0043-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0043-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0043-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y documentación visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0043-front.webp"
+  },
+  {
+    "id": "rgv-0044",
+    "title": "Super Smash Bros. for Nintendo 3DS",
+    "platform": "Nintendo 3DS",
+    "year": 2014,
+    "genre": "Lucha",
+    "region": "Japón",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho y documentación presentes. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición japonesa. Carátula y hoja de controles en japonés. Caja, cartucho y documentación visibles. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 11,
+    "marketMin": 11,
+    "marketMax": 11,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0044-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0044-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0044-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y documentación visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0044-front.webp"
+  },
+  {
+    "id": "rgv-0045",
+    "title": "Yo-kai Sangokushi",
+    "platform": "Nintendo 3DS",
+    "year": 2016,
+    "genre": "RPG táctico",
+    "region": "Japón",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Precintado; envoltorio visible. Contenido interior y funcionamiento sin comprobar.",
+    "description": "Edición japonesa, precintada según el propietario y con envoltorio visible. Carátula en japonés. Interior, cartucho y documentación sin comprobar; solo fotografías frontal y trasera. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 14,
+    "marketMin": 14,
+    "marketMax": 14,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0045-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0045-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      }
+    ],
+    "coverPhoto": "images/rgv-0045-front.webp"
+  },
+  {
+    "id": "rgv-0046",
+    "title": "Miitopia",
+    "platform": "Nintendo 3DS",
+    "year": 2017,
+    "genre": "RPG",
+    "region": "Europa · Francia",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Precintado; envoltorio visible. Contenido interior y funcionamiento sin comprobar.",
+    "description": "Edición francesa, precintada según el propietario y con envoltorio y tira Nintendo visibles. Carátula en francés. Interior, cartucho y documentación sin comprobar; solo fotografías frontal y trasera. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 15,
+    "marketMin": 15,
+    "marketMax": 15,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0046-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0046-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      }
+    ],
+    "coverPhoto": "images/rgv-0046-front.webp"
+  },
+  {
+    "id": "rgv-0047",
+    "title": "James Noir's Hollywood Crimes 3D",
+    "platform": "Nintendo 3DS",
+    "year": 2011,
+    "genre": "Puzle y misterio",
+    "region": "Europa · Francia",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Precintado; envoltorio visible. Contenido interior y funcionamiento sin comprobar.",
+    "description": "Edición francesa, precintada según el propietario y con envoltorio visible. Carátula en francés. Interior, cartucho y documentación sin comprobar; solo fotografías frontal y trasera. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 12,
+    "marketMin": 12,
+    "marketMax": 12,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0047-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0047-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      }
+    ],
+    "coverPhoto": "images/rgv-0047-front.webp"
+  },
+  {
+    "id": "rgv-0048",
+    "title": "Luigi's Mansion 2 — Nintendo Selects",
+    "platform": "Nintendo 3DS",
+    "year": 2013,
+    "genre": "Acción y aventura",
+    "region": "Europa",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho y documentación presentes. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición Nintendo Selects. Carátula con textos en español y portugués. Caja, cartucho y folleto promocional Nintendo 3DS family visibles. Año indicado: lanzamiento europeo del juego original, no fecha de esta reedición. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 14,
+    "marketMin": 14,
+    "marketMax": 14,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0048-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0048-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0048-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y documentación visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0048-front.webp"
+  },
+  {
+    "id": "rgv-0049",
+    "title": "Mario Party: Island Tour — Nintendo Selects",
+    "platform": "Nintendo 3DS",
+    "year": 2014,
+    "genre": "Fiesta y minijuegos",
+    "region": "Europa",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho y documentación presentes. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición Nintendo Selects. Carátula con textos en español y portugués. Caja, cartucho y hoja de información importante visibles. Año indicado: lanzamiento europeo del juego original, no fecha de esta reedición. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 11,
+    "marketMin": 11,
+    "marketMax": 11,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0049-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0049-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0049-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y documentación visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0049-front.webp"
+  },
+  {
+    "id": "rgv-0050",
+    "title": "Animal Crossing: New Leaf – Welcome amiibo — Nintendo Selects",
+    "platform": "Nintendo 3DS",
+    "year": 2016,
+    "genre": "Simulación social",
+    "region": "Europa",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho y documentación presentes. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición Nintendo Selects Welcome amiibo. Caja, cartucho y hoja de información importante visibles; carátula multilingüe con textos en español. Año indicado: lanzamiento europeo de Welcome amiibo, no fecha de esta reedición. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 19,
+    "marketMin": 19,
+    "marketMax": 19,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0050-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0050-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0050-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y documentación visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0050-front.webp"
   }
 ]
