@@ -1,10 +1,10 @@
-# Retro Game Vault · Lotes 01–05
+# Retro Game Vault · Lotes 01–06
 
-Cincuenta juegos y 452 € de valoración provisional: 120 € del lote 01, 83 € del lote 02, 58 € del lote 03, 72 € del lote 04 y 119 € del lote 05. Se conservan las valoraciones previas.
+Sesenta juegos y 618 € de valoración provisional: 120 € del lote 01, 83 € del lote 02, 58 € del lote 03, 72 € del lote 04, 119 € del lote 05 y 166 € del lote 06. Se conservan las valoraciones previas.
 
 ## Fotografías disponibles
 
-163 fotografías originales enlazadas: 46 del lote 01, 30 de cada lote 02, 03 y 04 y 27 del lote 05. Cada ficha 011–040 incluye frontal cerrado, contraportada e interior; GTA V muestra sus dos discos. Las imágenes públicas están optimizadas en WebP, sin EXIF ni XMP. Las pegatinas con precios y procedencia de FIFA 15 llevan máscaras opacas; los originales sin modificar se guardan solo en el repositorio privado. No se garantiza la validez de códigos antiguos ni el estado de caras de lectura no fotografiadas.
+193 fotografías originales enlazadas: 46 del lote 01, 30 de cada lote 02, 03, 04 y 06 y 27 del lote 05. Cada ficha 011–040 incluye frontal cerrado, contraportada e interior; GTA V muestra sus dos discos. Las imágenes públicas están optimizadas en WebP, sin EXIF ni XMP. Las pegatinas con precios y procedencia de FIFA 15 llevan máscaras opacas; los originales sin modificar se guardan solo en el repositorio privado. No se garantiza la validez de códigos antiguos ni el estado de caras de lectura no fotografiadas.
 
 ## Validar y ejecutar
 Node 22 o posterior. Sin instalar paquetes:
@@ -23,7 +23,7 @@ Abrir http://127.0.0.1:4173. Las rutas relativas son compatibles con /retro-game
 4. Incluir data/, images/, scripts/, .github/workflows/pages.yml, .nojekyll y .gitignore. Ver → Mostrar → Elementos ocultos en el Explorador permite comprobarlos. GitHub Desktop permite copiar todos los archivos preservando las rutas.
 5. Esperar a que terminen las cargas, escribir un mensaje y pulsar Commit changes. Revisar el pull request y fusionarlo.
 6. Settings → Pages → Source: GitHub Actions. Comprobar que el workflow termina correctamente en Actions.
-7. Abrir https://xefnascrypto-star.github.io/retro-game-vault/ y comprobar cincuenta juegos, 452 €, filtros, fichas y ampliación de fotografías.
+7. Abrir https://xefnascrypto-star.github.io/retro-game-vault/ y comprobar sesenta juegos, 618 €, filtros, fichas y ampliación de fotografías.
 
 GitHub no descomprime los ZIP automáticamente.
 Documentación: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
@@ -36,7 +36,7 @@ La portada se asigna manualmente en coverPhoto a la primera fotografía enviada 
 
 El array photos se guarda explícitamente en este orden: front (frontal cerrado), back (contraportada), inside (interior abierto), discPrinted (cara impresa), discBack (cara de lectura), extras (manuales, panfletos, códigos y extras), accessory (steelbook, funda, pin y accesorios). Dentro de cada categoría se conserva el orden de envío. Una foto que reúne interior y folletos se clasifica como interior; no se duplica.
 
-Los cincuenta juegos tienen portada frontal cerrada explícita. Las galerías de los lotes 02, 03 y 04 siguen el orden frontal, contraportada e interior, comprobado visualmente sobre los adjuntos originales.
+Los sesenta juegos tienen portada frontal cerrada explícita. Las galerías de los lotes 02, 03 y 04 siguen el orden frontal, contraportada e interior, comprobado visualmente sobre los adjuntos originales.
 
 ## Lote 03
 
@@ -55,3 +55,11 @@ Años de las ediciones japonesas contrastados con las fichas oficiales de [Child
 Diez registros nuevos rgv-0041–rgv-0050 y 27 fotos, exclusivamente del ZIP corregido aportado; hashes y tamaños verificados contra manifest.json. Los tres precintados 045–047 solo muestran frontal y trasera: no se afirma haber comprobado cartuchos ni contenido interior. Puyo Puyo! 15th Anniversary permanece exclusivamente en rgv-0040, sin nuevas fotos ni registro duplicado. Los primeros 40 registros, las 136 fotos y el historial previo quedan intactos. El incremento de 119 € se registra el 15 de noviembre de 2026. El ZIP original permanece sin modificar. Las copias WebP no incluyen EXIF/XMP; se ocultan las etiquetas comerciales de inventario de Miitopia y James Noir en las copias públicas.
 
 Los años de Nintendo Selects indican el lanzamiento europeo del juego original (Luigi 2013, Mario Party 2014) o de la versión Welcome amiibo (2016), sin atribuir una fecha de fabricación a estas unidades. Referencias oficiales: [Magia en acción](https://www.nintendo.com/es-es/Noticias/2008/Ya-a-la-venta-Nintendo-DS-Magia-en-accion-Realiza-trucos-que-dejaran-asombrados-a-tus-amigos-250541.html), [Luigi's Mansion 2](https://www.nintendo.com/es-es/Noticias/2013/marzo/Luigi-s-Mansion-2-ya-esta-aqui-adentrate-en-la-mansion-hoy-mismo-y-celebra-el-comienzo-del-anio-de-Luigi-741271.html), [Mario Party: Island Tour](https://www.nintendo.com/en-gb/Games/Nintendo-3DS-games/Mario-Party-Island-Tour-838846.html), [Welcome amiibo](https://www.nintendo.com/es-es/Juegos/Juegos-de-Nintendo-3DS/Animal-Crossing-New-Leaf-Welcome-amiibo-273841.html).
+
+## Lote 06
+
+Diez juegos nuevos rgv-0051–rgv-0060, 166 € provisionales y 30 fotos verificadas contra MANIFEST.json del ZIP aportado. Los primeros 50 juegos, sus 163 fotos y su historial se conservan intactos. Las nuevas galerías mantienen frontal, contraportada e interior. La portada 052 ya estaba girada: no se vuelve a rotar. Los JPEG originales permanecen en el ZIP sin modificar. WebP conserva proporciones y orientación, sin EXIF/XMP; la etiqueta comercial de State of Mind se oculta solo en la copia pública.
+
+El 054 es CODE IN A BOX: no tiene cartucho. La foto interior contiene únicamente la copia censurada del ZIP; el código real no se ha recibido ni publicado. Uso previo, validez y canjeabilidad sin comprobar. La valoración de 2 € no garantiza acceso al juego. Cuphead muestra cartucho, material impreso y decoración interior; Security Breach muestra cartucho y pegatinas. Los idiomas de las carátulas no garantizan los idiomas del programa. No se alteran las tasaciones del propietario.
+
+Los años indican lanzamiento en la plataforma, no fabricación de las unidades ni necesariamente estreno de la edición física. Referencias: [Cuphead para Switch, Nintendo](https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Cuphead-1532319.html), [Black Future '88, editor](https://www.goodshepherd.games/news/synth-punk-roguelike-shooter-black-future-88-launches-on-nintendo-switch-and-pc).

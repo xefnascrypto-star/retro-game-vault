@@ -45,11 +45,15 @@ for (const asset of ['styles.css','app.js','data/catalog.json']) await readFile(
 assert(html.includes('lang="es"') && html.includes('name="viewport"'));
 console.log(`OK: ${games.length} public records; unique IDs, strict field allowlist, local assets and safe text rendering.`);
 
-assert.equal(games.length,50); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),452);
-assert.equal(games.reduce((n,g)=>n+g.photos.length,0),163);
+assert.equal(games.length,60); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),618);
+assert.equal(games.reduce((n,g)=>n+g.photos.length,0),193);
 for (const game of games.slice(10)) {
  const sealed=['rgv-0045','rgv-0046','rgv-0047'].includes(game.id);
  assert.deepEqual(game.photos.map(p=>p.kind),sealed?['front','back']:['front','back','inside'],'Gallery must match available original photographs');
 }
 assert.equal(games.filter(g=>g.title.includes('Puyo Puyo! 15th Anniversary')).length,1,'No duplicate Puyo Puyo');
 assert.equal(games.find(g=>g.id==='rgv-0040').photos.length,3);
+
+const codeInBox=games.find(g=>g.id==='rgv-0054');
+assert(codeInBox.format.includes('sin cartucho') && codeInBox.marketValue===2);
+assert.equal(games.slice(50).reduce((n,g)=>n+g.photos.length,0),30);

@@ -1813,5 +1813,355 @@
       }
     ],
     "coverPhoto": "images/rgv-0050-front.webp"
+  },
+  {
+    "id": "rgv-0051",
+    "title": "LEGO Marvel Super Heroes: Universo en Peligro",
+    "platform": "Nintendo 3DS",
+    "year": 2013,
+    "genre": "Acción y aventura",
+    "region": "Europa · carátula española",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Carátula con título y textos en español, clasificación PEGI. Caja, cartucho y material impreso de LEGO Marvel visibles. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 8,
+    "marketMin": 8,
+    "marketMax": 8,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0051-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0051-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0051-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0051-front.webp"
+  },
+  {
+    "id": "rgv-0052",
+    "title": "State of Mind",
+    "platform": "Nintendo Switch",
+    "year": 2018,
+    "genre": "Aventura narrativa",
+    "region": "Europa · carátula española",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición europea PEGI con contraportada en español. Caja, cartucho y decoración interior visibles; no se observa manual independiente. La portada del ZIP ya está orientada correctamente. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 15,
+    "marketMin": 15,
+    "marketMax": 15,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0052-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0052-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0052-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0052-front.webp"
+  },
+  {
+    "id": "rgv-0053",
+    "title": "Black Future '88",
+    "platform": "Nintendo Switch",
+    "year": 2019,
+    "genre": "Acción · Roguelike",
+    "region": "Europa · carátula multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición europea PEGI. Contraportada con textos en inglés y francés. Caja, cartucho y decoración interior visibles; no se observa manual independiente. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 14,
+    "marketMin": 14,
+    "marketMax": 14,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0053-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0053-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0053-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0053-front.webp"
+  },
+  {
+    "id": "rgv-0054",
+    "title": "PAW Patrol: Mighty Pups Save Adventure Bay!",
+    "platform": "Nintendo Switch",
+    "year": 2020,
+    "genre": "Acción y aventura",
+    "region": "Europa · España/Portugal",
+    "format": "Código de descarga en caja · sin cartucho",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; hoja de descarga presente, sin cartucho. Código oculto; estado de canje sin comprobar.",
+    "description": "Edición CODE IN A BOX: caja y hoja con código de descarga, sin cartucho. Carátula con textos en español y portugués. El código de la fotografía está oculto; uso previo, canjeabilidad y validez sin comprobar. La tasación provisional de 2 € no presupone un código sin usar. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 2,
+    "marketMin": 2,
+    "marketMax": 2,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0054-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0054-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0054-inside.webp",
+        "kind": "inside",
+        "label": "Interior CODE IN A BOX, sin cartucho y con código oculto"
+      }
+    ],
+    "coverPhoto": "images/rgv-0054-front.webp"
+  },
+  {
+    "id": "rgv-0055",
+    "title": "NBA 2K23",
+    "platform": "Nintendo Switch",
+    "year": 2022,
+    "genre": "Deportes · Baloncesto",
+    "region": "Europa · carátula española",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición europea PEGI con textos en español. Caja, cartucho, información impresa y folleto de contenido adicional visibles. No se confirma la validez ni el uso de contenido descargable. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 8,
+    "marketMin": 8,
+    "marketMax": 8,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0055-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0055-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0055-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0055-front.webp"
+  },
+  {
+    "id": "rgv-0056",
+    "title": "Daemon X Machina",
+    "platform": "Nintendo Switch",
+    "year": 2019,
+    "genre": "Acción · Mechas",
+    "region": "Europa · España/Portugal",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición europea PEGI con textos de carátula en español y portugués. Caja, cartucho y decoración interior visibles; no se observa manual independiente. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 24,
+    "marketMin": 24,
+    "marketMax": 24,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0056-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0056-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0056-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0056-front.webp"
+  },
+  {
+    "id": "rgv-0057",
+    "title": "Cuphead",
+    "platform": "Nintendo Switch",
+    "year": 2019,
+    "genre": "Acción · Run and gun",
+    "region": "Europa · carátula española",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición física europea PEGI, con contraportada en español. Incluye caja, cartucho, material impreso y decoración interior ilustrada visibles. No se presupone contenido adicional que no pueda comprobarse en las fotos. Año indicado: lanzamiento del juego en Nintendo Switch, no fecha de esta edición física. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 24,
+    "marketMin": 24,
+    "marketMax": 24,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0057-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0057-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0057-inside.webp",
+        "kind": "inside",
+        "label": "Interior con cartucho, material impreso y decoración ilustrada"
+      }
+    ],
+    "coverPhoto": "images/rgv-0057-front.webp"
+  },
+  {
+    "id": "rgv-0058",
+    "title": "Five Nights at Freddy's: Security Breach",
+    "platform": "Nintendo Switch",
+    "year": 2023,
+    "genre": "Terror y supervivencia",
+    "region": "Europa · carátula multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición europea PEGI, contraportada con textos en español y portugués. Caja, cartucho, hoja informativa y hoja de pegatinas visibles. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 22,
+    "marketMin": 22,
+    "marketMax": 22,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0058-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0058-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0058-inside.webp",
+        "kind": "inside",
+        "label": "Interior con cartucho y pegatinas"
+      }
+    ],
+    "coverPhoto": "images/rgv-0058-front.webp"
+  },
+  {
+    "id": "rgv-0059",
+    "title": "Minecraft",
+    "platform": "Nintendo Switch",
+    "year": 2018,
+    "genre": "Construcción y supervivencia",
+    "region": "Europa · carátula multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición europea PEGI con textos multilingües. Caja y cartucho visibles; no se observa documentación independiente en el interior. La portada anuncia el pack de popurrí de Super Mario; no se ha comprobado su disponibilidad en ejecución. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 19,
+    "marketMin": 19,
+    "marketMax": 19,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0059-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0059-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0059-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0059-front.webp"
+  },
+  {
+    "id": "rgv-0060",
+    "title": "Super Mario Odyssey",
+    "platform": "Nintendo Switch",
+    "year": 2017,
+    "genre": "Plataformas",
+    "region": "Europa · España/Portugal",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición europea PEGI con textos de carátula en español y portugués. Caja, cartucho y decoración interior visibles; no se observa manual independiente. Idiomas disponibles en ejecución sin comprobar.",
+    "color": "#3c8f6e",
+    "marketValue": 30,
+    "marketMin": 30,
+    "marketMax": 30,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0060-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0060-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0060-inside.webp",
+        "kind": "inside",
+        "label": "Interior abierto con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0060-front.webp"
   }
 ]
