@@ -45,8 +45,8 @@ for (const asset of ['styles.css','app.js','data/catalog.json']) await readFile(
 assert(html.includes('lang="es"') && html.includes('name="viewport"'));
 console.log(`OK: ${games.length} public records; unique IDs, strict field allowlist, local assets and safe text rendering.`);
 
-assert.equal(games.length,60); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),618);
-assert.equal(games.reduce((n,g)=>n+g.photos.length,0),193);
+assert.equal(games.length,70); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),747);
+assert.equal(games.reduce((n,g)=>n+g.photos.length,0),223);
 for (const game of games.slice(10)) {
  const sealed=['rgv-0045','rgv-0046','rgv-0047'].includes(game.id);
  assert.deepEqual(game.photos.map(p=>p.kind),sealed?['front','back']:['front','back','inside'],'Gallery must match available original photographs');
@@ -56,4 +56,15 @@ assert.equal(games.find(g=>g.id==='rgv-0040').photos.length,3);
 
 const codeInBox=games.find(g=>g.id==='rgv-0054');
 assert(codeInBox.format.includes('sin cartucho') && codeInBox.marketValue===2);
-assert.equal(games.slice(50).reduce((n,g)=>n+g.photos.length,0),30);
+assert.equal(games.slice(60).reduce((n,g)=>n+g.photos.length,0),30);
+
+const valuations=JSON.parse(await readFile('data/valuations-lot07.json','utf8'));
+assert.equal(valuations.items.length,10);
+assert.equal(valuations.items.reduce((n,v)=>n+v.estimatedValue,0),129);
+for(const v of valuations.items){
+ const game=games.find(g=>g.id===v.itemId);
+ assert(game && game.marketValue===v.estimatedValue && game.marketMin===v.rangeMin && game.marketMax===v.rangeMax);
+ assert(['baja','media','alta'].includes(v.confidence) && v.provisional===true && v.digitalBonusValue===0);
+ assert.equal(v.valuationDate,game.valuationDate);
+ assert(v.sources.length && v.sources.every(x=>x.url.startsWith('https://')));
+}

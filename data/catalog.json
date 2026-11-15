@@ -2163,5 +2163,355 @@
       }
     ],
     "coverPhoto": "images/rgv-0060-front.webp"
+  },
+  {
+    "id": "rgv-0061",
+    "title": "Mario + Rabbids Sparks of Hope — Cosmic Edition",
+    "platform": "Nintendo Switch",
+    "year": 2022,
+    "genre": "Estrategia táctica",
+    "region": "Europa · España/Portugal",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Cosmic Edition identificada en la portada. Carátula y folleto con textos en español y portugués. Caja, cartucho y folleto de bonos visibles. No se comprueba la disponibilidad de la colección de armas ni de los bonos de reserva; se valoran en 0 €. Idiomas en ejecución sin comprobar. Valoración provisional a 15-11-2026; confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 10,
+    "marketMin": 10,
+    "marketMax": 15,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0061-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0061-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0061-inside.webp",
+        "kind": "inside",
+        "label": "Interior con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0061-front.webp"
+  },
+  {
+    "id": "rgv-0062",
+    "title": "EA Sports FC 25",
+    "platform": "Nintendo Switch",
+    "year": 2024,
+    "genre": "Deportes · Fútbol",
+    "region": "Europa · carátula española",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición física europea PEGI. Carátula con textos en español; caja, cartucho y folleto EA Sports FC visibles. No se garantiza el acceso a servicios online ni promociones. Idiomas en ejecución sin comprobar. Valoración provisional a 15-11-2026; confianza media.",
+    "color": "#3c8f6e",
+    "marketValue": 10,
+    "marketMin": 10,
+    "marketMax": 16,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0062-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0062-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0062-inside.webp",
+        "kind": "inside",
+        "label": "Interior con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0062-front.webp"
+  },
+  {
+    "id": "rgv-0063",
+    "title": "All-Star Fruit Racing",
+    "platform": "Nintendo Switch",
+    "year": 2018,
+    "genre": "Conducción · Karts",
+    "region": "Europa · carátula multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición europea PEGI con contraportada multilingüe. Caja y cartucho presentes; no se observa manual independiente. Idiomas en ejecución sin comprobar. Valoración provisional a 15-11-2026; confianza media.",
+    "color": "#3c8f6e",
+    "marketValue": 7,
+    "marketMin": 7,
+    "marketMax": 10,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0063-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0063-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0063-inside.webp",
+        "kind": "inside",
+        "label": "Interior con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0063-front.webp"
+  },
+  {
+    "id": "rgv-0064",
+    "title": "Sonic Mania Plus",
+    "platform": "Nintendo Switch",
+    "year": 2018,
+    "genre": "Plataformas",
+    "region": "Europa · carátula española",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición Plus europea PEGI. Caja, cartucho, libreto ilustrado y carátula interior de estilo Mega Drive visibles. No se observa funda exterior independiente; no se tasa como un conjunto de coleccionista completo. Idiomas en ejecución sin comprobar. Valoración provisional a 15-11-2026; confianza media.",
+    "color": "#3c8f6e",
+    "marketValue": 12,
+    "marketMin": 12,
+    "marketMax": 18,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0064-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0064-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0064-inside.webp",
+        "kind": "inside",
+        "label": "Interior con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0064-front.webp"
+  },
+  {
+    "id": "rgv-0065",
+    "title": "Just Dance 2021",
+    "platform": "Nintendo Switch",
+    "year": 2020,
+    "genre": "Ritmo y baile",
+    "region": "Europa · carátula multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición europea PEGI en cartucho, no CODE IN A BOX. Caja, cartucho y folleto publicitario visibles. No se atribuye valor a suscripciones, pruebas ni servicios online. Idiomas en ejecución sin comprobar. Valoración provisional a 15-11-2026; confianza media.",
+    "color": "#3c8f6e",
+    "marketValue": 7,
+    "marketMin": 7,
+    "marketMax": 11,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0065-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0065-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0065-inside.webp",
+        "kind": "inside",
+        "label": "Interior con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0065-front.webp"
+  },
+  {
+    "id": "rgv-0066",
+    "title": "Mario Kart 8 Deluxe",
+    "platform": "Nintendo Switch",
+    "year": 2017,
+    "genre": "Conducción · Karts",
+    "region": "Europa · España/Portugal",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición europea PEGI. Portada indica español y portugués; caja, cartucho y decoración interior con controles visibles. No se incluye en la tasación el pase de pistas adicional. Idiomas en ejecución sin comprobar. Valoración provisional a 15-11-2026; confianza media.",
+    "color": "#3c8f6e",
+    "marketValue": 25,
+    "marketMin": 25,
+    "marketMax": 32,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0066-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0066-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0066-inside.webp",
+        "kind": "inside",
+        "label": "Interior con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0066-front.webp"
+  },
+  {
+    "id": "rgv-0067",
+    "title": "Mario + Rabbids Kingdom Battle",
+    "platform": "Nintendo Switch",
+    "year": 2017,
+    "genre": "Estrategia táctica",
+    "region": "Europa · España/Portugal",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición física estándar europea PEGI. Caja y cartucho presentes; folleto promocional de Rayman Legends visible, sin afirmar que Rayman esté incluido. No es la edición Gold ni una caja con código. Idiomas en ejecución sin comprobar. Valoración provisional a 15-11-2026; confianza media.",
+    "color": "#3c8f6e",
+    "marketValue": 7,
+    "marketMin": 7,
+    "marketMax": 12,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0067-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0067-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0067-inside.webp",
+        "kind": "inside",
+        "label": "Interior con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0067-front.webp"
+  },
+  {
+    "id": "rgv-0068",
+    "title": "Final Fantasy Crystal Chronicles Remastered Edition",
+    "platform": "Nintendo Switch",
+    "year": 2020,
+    "genre": "Acción y RPG",
+    "region": "Japón · CERO A",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición japonesa, carátula en japonés y clasificación CERO A. Caja y cartucho visibles; no se observa documentación independiente. No se garantiza compatibilidad de idioma ni servicios online. Idiomas en ejecución sin comprobar. Valoración provisional a 15-11-2026; confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 18,
+    "marketMin": 18,
+    "marketMax": 26,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0068-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0068-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0068-inside.webp",
+        "kind": "inside",
+        "label": "Interior con cartucho y contenido visible"
+      }
+    ],
+    "coverPhoto": "images/rgv-0068-front.webp"
+  },
+  {
+    "id": "rgv-0069",
+    "title": "Crisis Core: Final Fantasy VII Reunion",
+    "platform": "Nintendo Switch",
+    "year": 2022,
+    "genre": "Acción y RPG",
+    "region": "Europa · España/Portugal",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición física europea PEGI con textos en español y portugués. Caja, cartucho y tarjeta Square Enix Members visibles. Código de registro oculto en negro, sin valor económico atribuido ni garantía de uso. Idiomas en ejecución sin comprobar. Valoración provisional a 15-11-2026; confianza media.",
+    "color": "#3c8f6e",
+    "marketValue": 18,
+    "marketMin": 18,
+    "marketMax": 25,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0069-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0069-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0069-inside.webp",
+        "kind": "inside",
+        "label": "Interior con cartucho y contenido visible · código oculto"
+      }
+    ],
+    "coverPhoto": "images/rgv-0069-front.webp"
+  },
+  {
+    "id": "rgv-0070",
+    "title": "Infinity Strash: Dragon Quest The Adventure of Dai",
+    "platform": "Nintendo Switch",
+    "year": 2023,
+    "genre": "Acción y RPG",
+    "region": "Japón · CERO B",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Caja y carátula con señales de uso; cartucho presente. Contactos y funcionamiento sin comprobar.",
+    "description": "Edición japonesa, carátula y folleto en japonés, clasificación CERO B. Caja, cartucho, decoración interior y folleto de bono visibles. Código y número de gestión del folleto ocultos en negro; disponibilidad del bono e idiomas sin verificar. Idiomas en ejecución sin comprobar. Valoración provisional a 15-11-2026; confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 15,
+    "marketMin": 15,
+    "marketMax": 22,
+    "valuationDate": "2026-11-15",
+    "photos": [
+      {
+        "src": "images/rgv-0070-front.webp",
+        "kind": "front",
+        "label": "Portada frontal con caja cerrada"
+      },
+      {
+        "src": "images/rgv-0070-back.webp",
+        "kind": "back",
+        "label": "Contraportada"
+      },
+      {
+        "src": "images/rgv-0070-inside.webp",
+        "kind": "inside",
+        "label": "Interior con cartucho y contenido visible · código oculto"
+      }
+    ],
+    "coverPhoto": "images/rgv-0070-front.webp"
   }
 ]

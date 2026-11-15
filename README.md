@@ -1,10 +1,10 @@
-# Retro Game Vault · Lotes 01–06
+# Retro Game Vault · Lotes 01–07
 
-Sesenta juegos y 618 € de valoración provisional: 120 € del lote 01, 83 € del lote 02, 58 € del lote 03, 72 € del lote 04, 119 € del lote 05 y 166 € del lote 06. Se conservan las valoraciones previas.
+Setenta juegos y 747 € de valoración provisional: 618 € de los primeros seis lotes y 129 € del lote 07. Se conservan las valoraciones previas.
 
 ## Fotografías disponibles
 
-193 fotografías originales enlazadas: 46 del lote 01, 30 de cada lote 02, 03, 04 y 06 y 27 del lote 05. Cada ficha 011–040 incluye frontal cerrado, contraportada e interior; GTA V muestra sus dos discos. Las imágenes públicas están optimizadas en WebP, sin EXIF ni XMP. Las pegatinas con precios y procedencia de FIFA 15 llevan máscaras opacas; los originales sin modificar se guardan solo en el repositorio privado. No se garantiza la validez de códigos antiguos ni el estado de caras de lectura no fotografiadas.
+223 fotografías originales enlazadas: 46 del lote 01, 30 de cada lote 02, 03, 04, 06 y 07 y 27 del lote 05. Cada ficha 011–040 incluye frontal cerrado, contraportada e interior; GTA V muestra sus dos discos. Las imágenes públicas están optimizadas en WebP, sin EXIF ni XMP. Las pegatinas con precios y procedencia de FIFA 15 llevan máscaras opacas; los originales sin modificar se guardan solo en el repositorio privado. No se garantiza la validez de códigos antiguos ni el estado de caras de lectura no fotografiadas.
 
 ## Validar y ejecutar
 Node 22 o posterior. Sin instalar paquetes:
@@ -23,7 +23,7 @@ Abrir http://127.0.0.1:4173. Las rutas relativas son compatibles con /retro-game
 4. Incluir data/, images/, scripts/, .github/workflows/pages.yml, .nojekyll y .gitignore. Ver → Mostrar → Elementos ocultos en el Explorador permite comprobarlos. GitHub Desktop permite copiar todos los archivos preservando las rutas.
 5. Esperar a que terminen las cargas, escribir un mensaje y pulsar Commit changes. Revisar el pull request y fusionarlo.
 6. Settings → Pages → Source: GitHub Actions. Comprobar que el workflow termina correctamente en Actions.
-7. Abrir https://xefnascrypto-star.github.io/retro-game-vault/ y comprobar sesenta juegos, 618 €, filtros, fichas y ampliación de fotografías.
+7. Abrir https://xefnascrypto-star.github.io/retro-game-vault/ y comprobar setenta juegos, 747 €, filtros, fichas y ampliación de fotografías.
 
 GitHub no descomprime los ZIP automáticamente.
 Documentación: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
@@ -36,7 +36,7 @@ La portada se asigna manualmente en coverPhoto a la primera fotografía enviada 
 
 El array photos se guarda explícitamente en este orden: front (frontal cerrado), back (contraportada), inside (interior abierto), discPrinted (cara impresa), discBack (cara de lectura), extras (manuales, panfletos, códigos y extras), accessory (steelbook, funda, pin y accesorios). Dentro de cada categoría se conserva el orden de envío. Una foto que reúne interior y folletos se clasifica como interior; no se duplica.
 
-Los sesenta juegos tienen portada frontal cerrada explícita. Las galerías de los lotes 02, 03 y 04 siguen el orden frontal, contraportada e interior, comprobado visualmente sobre los adjuntos originales.
+Los setenta juegos tienen portada frontal cerrada explícita. Las galerías de los lotes 02, 03 y 04 siguen el orden frontal, contraportada e interior, comprobado visualmente sobre los adjuntos originales.
 
 ## Lote 03
 
@@ -63,3 +63,24 @@ Diez juegos nuevos rgv-0051–rgv-0060, 166 € provisionales y 30 fotos verific
 El 054 es CODE IN A BOX: no tiene cartucho. La foto interior contiene únicamente la copia censurada del ZIP; el código real no se ha recibido ni publicado. Uso previo, validez y canjeabilidad sin comprobar. La valoración de 2 € no garantiza acceso al juego. Cuphead muestra cartucho, material impreso y decoración interior; Security Breach muestra cartucho y pegatinas. Los idiomas de las carátulas no garantizan los idiomas del programa. No se alteran las tasaciones del propietario.
 
 Los años indican lanzamiento en la plataforma, no fabricación de las unidades ni necesariamente estreno de la edición física. Referencias: [Cuphead para Switch, Nintendo](https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Cuphead-1532319.html), [Black Future '88, editor](https://www.goodshepherd.games/news/synth-punk-roguelike-shooter-black-future-88-launches-on-nintendo-switch-and-pc).
+
+## Lote 07 y valoración conservadora
+
+70 juegos, 223 fotos y 747 € provisionales. El lote añade 129 €, sin tocar las 60 fichas, 193 imágenes ni entradas históricas anteriores. No hay títulos duplicados. Los IDs siguen el manifiesto: Kingdom Battle 067, Crystal Chronicles 068, Crisis Core 069 e Infinity Strash 070. Los 30 hashes WebP del paquete se verificaron antes de copiarlos. Las portadas permanecen verticales y completas. Los códigos 069/070 están cubiertos con negro opaco; también se oculta el número de gestión del folleto 070. No se incluyen originales con códigos, datos de adquisición ni archivos privados.
+
+Las estimaciones por juego, rangos, confianza y fuentes consultadas el 15-11-2026 están en [data/valuations-lot07.json](data/valuations-lot07.json). Las fichas muestran los rangos y la confianza en su descripción. Todos los valores son provisionales: se usa el extremo bajo razonable para cartucho y caja usados, sin prueba funcional. No se atribuye valor a los códigos de Cosmic Edition, Crisis Core ni Infinity Strash. Sonic Mania Plus se valora por el contenido visible, sin asumir funda exterior. Las ediciones japonesas se tasan por separado de las europeas.
+
+| ID | Juego | Estimación EUR | Rango EUR | Confianza |
+|---|---|---:|---:|---|
+| rgv-0061 | Mario + Rabbids Sparks of Hope — Cosmic Edition | 10 | 10–15 | baja |
+| rgv-0062 | EA Sports FC 25 | 10 | 10–16 | media |
+| rgv-0063 | All-Star Fruit Racing | 7 | 7–10 | media |
+| rgv-0064 | Sonic Mania Plus | 12 | 12–18 | media |
+| rgv-0065 | Just Dance 2021 | 7 | 7–11 | media |
+| rgv-0066 | Mario Kart 8 Deluxe | 25 | 25–32 | media |
+| rgv-0067 | Mario + Rabbids Kingdom Battle | 7 | 7–12 | media |
+| rgv-0068 | Final Fantasy Crystal Chronicles Remastered Edition | 18 | 18–26 | baja |
+| rgv-0069 | Crisis Core: Final Fantasy VII Reunion | 18 | 18–25 | media |
+| rgv-0070 | Infinity Strash: Dragon Quest The Adventure of Dai | 15 | 15–22 | baja |
+
+La evidencia incluye guías y ventas eBay recogidas por PriceCharting; las consultas directas a eBay finalizados fueron inaccesibles. Los precios en USD se documentan como referencias, no como equivalencias exactas en EUR. Anuncios, precios de tienda y estimaciones españolas se distinguen de las ventas. Las importaciones japonesas y Cosmic Edition tienen menor evidencia regional: confianza baja. No se crean series históricas ficticias ni se garantiza un precio de venta. El ZIP de entrada permanece intacto.
