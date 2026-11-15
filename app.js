@@ -37,7 +37,13 @@ $('photo-close').addEventListener('click',()=>$('photo-viewer').close());
 function render() {
   const query = normalize($('search').value.trim());
   const filtered = games.filter(g => normalize(`${g.title} ${g.platform} ${g.genre}`).includes(query) && (!$('platform').value || g.platform === $('platform').value) && (!$('status').value || g.status === $('status').value));
-  filtered.sort((a,b) => $('sort').value === 'title' ? a.title.localeCompare(b.title, 'es') : $('sort').value === 'newest' ? b.year-a.year : a.year-b.year);
+  const sort = $('sort').value;
+  filtered.sort((a,b) => {
+    if (sort === 'value-asc' || sort === 'value-desc') {
+      return (sort === 'value-asc' ? a.marketValue-b.marketValue : b.marketValue-a.marketValue) || a.title.localeCompare(b.title, 'es');
+    }
+    return sort === 'title' ? a.title.localeCompare(b.title, 'es') : sort === 'newest' ? b.year-a.year : a.year-b.year;
+  });
   $('grid').replaceChildren();
   for (const game of filtered) {
     const card = element('button', undefined, 'card'); card.type = 'button'; card.setAttribute('aria-label', `Ver ficha de ${game.title}`);
