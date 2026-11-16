@@ -92,3 +92,10 @@ Diez juegos añadidos, IDs rgv-0071 a rgv-0080: 106 € provisionales. Catálogo
 Treinta fotografías originales convertidas a WebP; siete giros de orientación. Pegatinas, desgaste y códigos comerciales conservados. No se observan códigos privados visibles en estas imágenes. Todos los ejemplares están abiertos y sin prueba funcional. art of rally Deluxe muestra material impreso; parche sin confirmación independiente. Evil Nun Unholy muestra caja, cartucho, presentación y materiales impresos; no se verifica disponibilidad de banda sonora digital.
 
 Rangos, confianza, fuentes y límites de las estimaciones en [data/valuations-lot08.json](data/valuations-lot08.json). PriceCharting agrega ventas en USD; cifras EUR son estimaciones conservadoras, no conversiones exactas. Evil Nun usa anuncio como contraste, no venta realizada. Ashwalkers tiene referencia de edición distinta y confianza baja. No se incluyen compras ni datos privados.
+
+
+## Lote 09 · 16/11/2026
+
+90 fichas de catálogo, 913 € provisionales y 283 fotografías. Se añaden diez unidades físicas con 30 fotos originales; el pack Gears of War + PGR4 es una única ficha y valoración, con dos juegos, dos discos y dos manuales. Búsqueda, filtros y ambas ordenaciones por valor conservados.
+
+Valoraciones y fuentes: `data/valuations-lot09.json`. Beowulf combina carátula española con UMD de clasificación australiana: idioma sin comprobar. Shin Sangoku Musou y 2nd Evolution son las ediciones japonesas originales para PSP; el manual de 2nd Evolution no es visible. No hay prueba funcional documentada ni valor atribuido a contenido digital. Los 80 registros previos, sus valoraciones y sus 253 fotos permanecen intactos.
