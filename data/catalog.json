@@ -3213,5 +3213,355 @@
       }
     ],
     "coverPhoto": "images/rgv-0090-front.webp"
+  },
+  {
+    "id": "rgv-0091",
+    "title": "Animal Crossing: New Horizons",
+    "platform": "Nintendo Switch",
+    "year": 2020,
+    "genre": "Simulación",
+    "region": "Europa · ESP/PT",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; conservación visual según fotografías. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja y cartucho; contraportada español y portugués. Superficies y funcionamiento sin comprobar; valoración provisional con confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 25,
+    "marketMin": 20,
+    "marketMax": 32,
+    "valuationDate": "2026-11-21",
+    "photos": [
+      {
+        "src": "images/rgv-0091-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0091-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0091-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0091-front.webp"
+  },
+  {
+    "id": "rgv-0092",
+    "title": "Dragon Ball Z: Shin Budokai 2 — Essentials",
+    "platform": "PSP",
+    "year": 2007,
+    "genre": "Lucha",
+    "region": "Europa · Essentials · carátula española",
+    "format": "UMD físico",
+    "status": "En colección",
+    "condition": "Usado; conservación visual según fotografías. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja Essentials, manual y UMD visibles; contraportada en español. UMD muestra clasificación PG. Superficies y funcionamiento sin comprobar; valoración provisional con confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 17,
+    "marketMin": 12,
+    "marketMax": 24,
+    "valuationDate": "2026-11-21",
+    "photos": [
+      {
+        "src": "images/rgv-0092-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0092-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0092-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0092-front.webp"
+  },
+  {
+    "id": "rgv-0093",
+    "title": "Speedball",
+    "platform": "Sega Master System",
+    "year": 1990,
+    "genre": "Deportes",
+    "region": "Europa · PAL · contraportada multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; conservación visual según fotografías. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja y cartucho; manual no visible. Marcas y desgaste en contraportada. Superficies y funcionamiento sin comprobar; valoración provisional con confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 12,
+    "marketMin": 8,
+    "marketMax": 17,
+    "valuationDate": "2026-11-21",
+    "photos": [
+      {
+        "src": "images/rgv-0093-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0093-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0093-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0093-front.webp"
+  },
+  {
+    "id": "rgv-0094",
+    "title": "Castle of Illusion Starring Mickey Mouse",
+    "platform": "Sega Master System",
+    "year": 1990,
+    "genre": "Plataformas",
+    "region": "Europa · PAL · contraportada multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; conservación visual según fotografías. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja y cartucho embolsado; manual no visible ni confirmado. Pegatina comercial en portada. Superficies y funcionamiento sin comprobar; valoración provisional con confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 13,
+    "marketMin": 9,
+    "marketMax": 19,
+    "valuationDate": "2026-11-21",
+    "photos": [
+      {
+        "src": "images/rgv-0094-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0094-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0094-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0094-front.webp"
+  },
+  {
+    "id": "rgv-0095",
+    "title": "Strider",
+    "platform": "Sega Master System",
+    "year": 1991,
+    "genre": "Acción",
+    "region": "Europa · PAL · contraportada multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; conservación visual según fotografías. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja y cartucho; manual no visible. Superficies y funcionamiento sin comprobar; valoración provisional con confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 21,
+    "marketMin": 15,
+    "marketMax": 30,
+    "valuationDate": "2026-11-21",
+    "photos": [
+      {
+        "src": "images/rgv-0095-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0095-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0095-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0095-front.webp"
+  },
+  {
+    "id": "rgv-0096",
+    "title": "Super Tennis",
+    "platform": "Sega Master System",
+    "year": 1986,
+    "genre": "Deportes",
+    "region": "Europa · PAL · contraportada multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; conservación visual según fotografías. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja, cartucho y manual visibles; manual arrugado, etiqueta y restos de adhesivo en contraportada. Superficies y funcionamiento sin comprobar; valoración provisional con confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 8,
+    "marketMin": 5,
+    "marketMax": 12,
+    "valuationDate": "2026-11-21",
+    "photos": [
+      {
+        "src": "images/rgv-0096-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0096-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0096-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0096-front.webp"
+  },
+  {
+    "id": "rgv-0097",
+    "title": "Wimbledon II",
+    "platform": "Sega Master System",
+    "year": 1993,
+    "genre": "Deportes",
+    "region": "Europa · PAL · contraportada multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; conservación visual según fotografías. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja y cartucho Wimbledon II visibles; manual propio no confirmado. Superficies y funcionamiento sin comprobar; valoración provisional con confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 7,
+    "marketMin": 4,
+    "marketMax": 10,
+    "valuationDate": "2026-11-21",
+    "photos": [
+      {
+        "src": "images/rgv-0097-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0097-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0097-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0097-front.webp"
+  },
+  {
+    "id": "rgv-0098",
+    "title": "Batman Returns",
+    "platform": "Sega Master System",
+    "year": 1993,
+    "genre": "Acción",
+    "region": "Europa · PAL · contraportada multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; conservación visual según fotografías. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja y cartucho visibles; manual no visible. Marcas de uso en caja y cartucho. Superficies y funcionamiento sin comprobar; valoración provisional con confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 25,
+    "marketMin": 18,
+    "marketMax": 35,
+    "valuationDate": "2026-11-21",
+    "photos": [
+      {
+        "src": "images/rgv-0098-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0098-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0098-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0098-front.webp"
+  },
+  {
+    "id": "rgv-0099",
+    "title": "World Games",
+    "platform": "Sega Master System",
+    "year": 1989,
+    "genre": "Deportes",
+    "region": "Europa · PAL · contraportada multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; conservación visual según fotografías. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja, cartucho World Games y manual World Games visibles: completo. Manual con arrugas; pegatina comercial en portada. Superficies y funcionamiento sin comprobar; valoración provisional con confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 12,
+    "marketMin": 8,
+    "marketMax": 17,
+    "valuationDate": "2026-11-21",
+    "photos": [
+      {
+        "src": "images/rgv-0099-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0099-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0099-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0099-front.webp"
+  },
+  {
+    "id": "rgv-0100",
+    "title": "Alien 3",
+    "platform": "Sega Master System",
+    "year": 1992,
+    "genre": "Acción",
+    "region": "Europa · PAL · contraportada multilingüe",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; conservación visual según fotografías. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja y cartucho Alien 3 visibles; manual no visible. Marcas de uso y envejecimiento en carátula. Superficies y funcionamiento sin comprobar; valoración provisional con confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 20,
+    "marketMin": 14,
+    "marketMax": 28,
+    "valuationDate": "2026-11-21",
+    "photos": [
+      {
+        "src": "images/rgv-0100-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0100-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0100-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0100-front.webp"
   }
 ]

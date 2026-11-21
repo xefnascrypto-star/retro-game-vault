@@ -1,0 +1,201 @@
+{
+  "batch": "10",
+  "valuationDate": "2026-11-21",
+  "currency": "EUR",
+  "total": 160,
+  "previousTotal": 913,
+  "collectionTotal": 1073,
+  "method": "Estimaciones conservadoras en euros basadas en guías de ventas PAL en USD; rangos aproximados y confianza baja, sin conversión directa. Los ejemplares sin manual confirmado no se valoran como completos.",
+  "items": [
+    {
+      "itemId": "rgv-0091",
+      "title": "Animal Crossing: New Horizons",
+      "estimatedValue": 25,
+      "rangeMin": 20,
+      "rangeMax": 32,
+      "valuationDate": "2026-11-21",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL completo 28,32 USD. Estimación propia conservadora en EUR; no conversión directa. La guía agrega ventas históricas y puede mezclar subediciones.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-nintendo-switch/animal-crossing-new-horizons",
+          "type": "sales_aggregate",
+          "note": "Guía PAL completo 28,32 USD."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0092",
+      "title": "Dragon Ball Z: Shin Budokai 2 — Essentials",
+      "estimatedValue": 17,
+      "rangeMin": 12,
+      "rangeMax": 24,
+      "valuationDate": "2026-11-21",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL Essentials completo 20,50 USD; mezcla de países. Estimación propia conservadora en EUR; no conversión directa. La guía agrega ventas históricas y puede mezclar subediciones.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-psp/dragon-ball-z-shin-budokai-2-essentials",
+          "type": "sales_aggregate",
+          "note": "Guía PAL Essentials completo 20,50 USD; mezcla de países."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0093",
+      "title": "Speedball",
+      "estimatedValue": 12,
+      "rangeMin": 8,
+      "rangeMax": 17,
+      "valuationDate": "2026-11-21",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL suelto 5,56 USD y completo 18,56 USD; caja y cartucho sin manual confirmado. Estimación propia conservadora en EUR; no conversión directa. La guía agrega ventas históricas y puede mezclar subediciones.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/console/pal-sega-master-system?sort=lowest-price&view=table",
+          "type": "sales_aggregate",
+          "note": "Guía PAL suelto 5,56 USD y completo 18,56 USD; caja y cartucho sin manual confirmado."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0094",
+      "title": "Castle of Illusion Starring Mickey Mouse",
+      "estimatedValue": 13,
+      "rangeMin": 9,
+      "rangeMax": 19,
+      "valuationDate": "2026-11-21",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL suelto 6,02 USD y completo 19,81 USD; sin manual confirmado. Estimación propia conservadora en EUR; no conversión directa. La guía agrega ventas históricas y puede mezclar subediciones.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/console/pal-sega-master-system?sort=lowest-price&view=table",
+          "type": "sales_aggregate",
+          "note": "Guía PAL suelto 6,02 USD y completo 19,81 USD; sin manual confirmado."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0095",
+      "title": "Strider",
+      "estimatedValue": 21,
+      "rangeMin": 15,
+      "rangeMax": 30,
+      "valuationDate": "2026-11-21",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL suelto 9,27 USD y completo 32,74 USD; sin manual confirmado. Estimación propia conservadora en EUR; no conversión directa. La guía agrega ventas históricas y puede mezclar subediciones.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/console/pal-sega-master-system?sort=lowest-price&view=table",
+          "type": "sales_aggregate",
+          "note": "Guía PAL suelto 9,27 USD y completo 32,74 USD; sin manual confirmado."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0096",
+      "title": "Super Tennis",
+      "estimatedValue": 8,
+      "rangeMin": 5,
+      "rangeMax": 12,
+      "valuationDate": "2026-11-21",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL completo 9,81 USD; descuento por desgaste. Estimación propia conservadora en EUR; no conversión directa. La guía agrega ventas históricas y puede mezclar subediciones.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/console/pal-sega-master-system?sort=lowest-price&view=table",
+          "type": "sales_aggregate",
+          "note": "Guía PAL completo 9,81 USD; descuento por desgaste."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0097",
+      "title": "Wimbledon II",
+      "estimatedValue": 7,
+      "rangeMin": 4,
+      "rangeMax": 10,
+      "valuationDate": "2026-11-21",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL suelto 6,57 USD y completo 10,26 USD; sin manual confirmado. Estimación propia conservadora en EUR; no conversión directa. La guía agrega ventas históricas y puede mezclar subediciones.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/console/pal-sega-master-system?sort=lowest-price&view=table",
+          "type": "sales_aggregate",
+          "note": "Guía PAL suelto 6,57 USD y completo 10,26 USD; sin manual confirmado."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0098",
+      "title": "Batman Returns",
+      "estimatedValue": 25,
+      "rangeMin": 18,
+      "rangeMax": 35,
+      "valuationDate": "2026-11-21",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL suelto 16,68 USD y completo 39,87 USD; sin manual confirmado. Estimación propia conservadora en EUR; no conversión directa. La guía agrega ventas históricas y puede mezclar subediciones.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/console/pal-sega-master-system",
+          "type": "sales_aggregate",
+          "note": "Guía PAL suelto 16,68 USD y completo 39,87 USD; sin manual confirmado."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0099",
+      "title": "World Games",
+      "estimatedValue": 12,
+      "rangeMin": 8,
+      "rangeMax": 17,
+      "valuationDate": "2026-11-21",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL completo 14,56 USD; ajuste por manual arrugado. Estimación propia conservadora en EUR; no conversión directa. La guía agrega ventas históricas y puede mezclar subediciones.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/console/pal-sega-master-system",
+          "type": "sales_aggregate",
+          "note": "Guía PAL completo 14,56 USD; ajuste por manual arrugado."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0100",
+      "title": "Alien 3",
+      "estimatedValue": 20,
+      "rangeMin": 14,
+      "rangeMax": 28,
+      "valuationDate": "2026-11-21",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Guía PAL suelto 11,80 USD y completo 31,79 USD; sin manual confirmado. Estimación propia conservadora en EUR; no conversión directa. La guía agrega ventas históricas y puede mezclar subediciones.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/console/pal-sega-master-system",
+          "type": "sales_aggregate",
+          "note": "Guía PAL suelto 11,80 USD y completo 31,79 USD; sin manual confirmado."
+        }
+      ]
+    }
+  ]
+}

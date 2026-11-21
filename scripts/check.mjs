@@ -45,8 +45,8 @@ for (const asset of ['styles.css','app.js','data/catalog.json']) await readFile(
 assert(html.includes('lang="es"') && html.includes('name="viewport"'));
 console.log(`OK: ${games.length} public records; unique IDs, strict field allowlist, local assets and safe text rendering.`);
 
-assert.equal(games.length,90); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),913);
-assert.equal(games.reduce((n,g)=>n+g.photos.length,0),283);
+assert.equal(games.length,100); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),1073);
+assert.equal(games.reduce((n,g)=>n+g.photos.length,0),313);
 for (const game of games.slice(10)) {
  const sealed=['rgv-0045','rgv-0046','rgv-0047'].includes(game.id);
  assert.deepEqual(game.photos.map(p=>p.kind),sealed?['front','back']:['front','back','inside'],'Gallery must match available original photographs');
@@ -56,7 +56,7 @@ assert.equal(games.find(g=>g.id==='rgv-0040').photos.length,3);
 
 const codeInBox=games.find(g=>g.id==='rgv-0054');
 assert(codeInBox.format.includes('sin cartucho') && codeInBox.marketValue===2);
-assert.equal(games.slice(80).reduce((n,g)=>n+g.photos.length,0),30);
+assert.equal(games.slice(90).reduce((n,g)=>n+g.photos.length,0),30);
 
 const valuations=JSON.parse(await readFile('data/valuations-lot07.json','utf8'));
 assert.equal(valuations.items.length,10);
@@ -77,3 +77,5 @@ const lot09=JSON.parse(await readFile("data/valuations-lot09.json","utf8"));
 assert.equal(lot09.items.length,10);assert.equal(lot09.total,60);assert.equal(lot09.collectionTotal,913);
 for(const v of lot09.items){const g=games.find(g=>g.id===v.itemId);assert(g && g.marketValue===v.estimatedValue && g.marketMin===v.rangeMin && g.marketMax===v.rangeMax && g.valuationDate===v.valuationDate);assert(v.rangeMin<=v.estimatedValue && v.estimatedValue<=v.rangeMax);assert(v.provisional && v.digitalBonusValue===0 && ["baja","media","alta"].includes(v.confidence));assert(v.sources.length && v.sources.every(s=>s.url.startsWith("https://")));}
 assert.equal(lot09.items.reduce((s,v)=>s+v.estimatedValue,0),60);
+
+const lot10=JSON.parse(await readFile("data/valuations-lot10.json","utf8")); assert.equal(lot10.items.length,10); assert.equal(lot10.items.reduce((s,v)=>s+v.estimatedValue,0),lot10.total); for(const v of lot10.items){const g=games.find(g=>g.id===v.itemId);assert(g && g.marketValue===v.estimatedValue && g.marketMin===v.rangeMin && g.marketMax===v.rangeMax && v.sources.length);}
