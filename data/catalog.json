@@ -3799,13 +3799,18 @@
     "format": "Cartucho físico",
     "status": "En colección",
     "condition": "Usado; valoración visual. Funcionamiento y contactos sin comprobar.",
-    "description": "Caja inglesa y cartucho francés Le Roi Lion; sin manual; inserto reproducido según propietario. Caja desgastada; portada cerrada no fotografiada. Funcionamiento sin comprobar. Valoración provisional, confianza baja.",
+    "description": "Caja inglesa y cartucho francés Le Roi Lion; sin manual; inserto reproducido según propietario. Caja desgastada; portada cerrada fotografiada. Funcionamiento sin comprobar. Valoración provisional, confianza baja.",
     "color": "#3c8f6e",
     "marketValue": 18,
     "marketMin": 12,
     "marketMax": 25,
     "valuationDate": "2026-11-23",
     "photos": [
+      {
+        "src": "images/rgv-0107-front.webp",
+        "label": "Portada frontal, caja cerrada",
+        "kind": "front"
+      },
       {
         "src": "images/rgv-0107-back.webp",
         "label": "Contraportada",
@@ -3817,7 +3822,7 @@
         "kind": "inside"
       }
     ],
-    "coverPhoto": null
+    "coverPhoto": "images/rgv-0107-front.webp"
   },
   {
     "id": "rgv-0108",

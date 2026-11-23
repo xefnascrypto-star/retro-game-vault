@@ -46,7 +46,7 @@ assert(html.includes('lang="es"') && html.includes('name="viewport"'));
 console.log(`OK: ${games.length} public records; unique IDs, strict field allowlist, local assets and safe text rendering.`);
 
 assert.equal(games.length,110); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),1244);
-assert.equal(games.reduce((n,g)=>n+g.photos.length,0),345);
+assert.equal(games.reduce((n,g)=>n+g.photos.length,0),346);
 for (const game of games.slice(10,100)) {
  const sealed=['rgv-0045','rgv-0046','rgv-0047'].includes(game.id);
  assert.deepEqual(game.photos.map(p=>p.kind),sealed?['front','back']:['front','back','inside'],'Gallery must match available original photographs');
