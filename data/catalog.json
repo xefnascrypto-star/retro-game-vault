@@ -3563,5 +3563,365 @@
       }
     ],
     "coverPhoto": "images/rgv-0100-front.webp"
+  },
+  {
+    "id": "rgv-0101",
+    "title": "Jimmy Connors Pro Tennis Tour",
+    "platform": "Super Nintendo",
+    "year": 1993,
+    "genre": "Deportes",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; valoración visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Italia; caja y cartucho, hoja de controles en italiano; manual íntegro no confirmado. Caja con desgaste en esquinas. Funcionamiento sin comprobar. Valoración provisional, confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 15,
+    "marketMin": 10,
+    "marketMax": 22,
+    "valuationDate": "2026-11-23",
+    "photos": [
+      {
+        "src": "images/rgv-0101-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0101-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0101-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0101-front.webp"
+  },
+  {
+    "id": "rgv-0102",
+    "title": "Golden Axe",
+    "platform": "Sega Master System",
+    "year": 1991,
+    "genre": "Acción",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; valoración visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Europa; caja, cartucho y manual visibles; etiqueta comercial en contraportada. Funcionamiento sin comprobar. Valoración provisional, confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 18,
+    "marketMin": 12,
+    "marketMax": 25,
+    "valuationDate": "2026-11-23",
+    "photos": [
+      {
+        "src": "images/rgv-0102-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0102-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0102-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0102-front.webp"
+  },
+  {
+    "id": "rgv-0103",
+    "title": "Nigel Mansell’s World Championship",
+    "platform": "Super Nintendo",
+    "year": 1993,
+    "genre": "Conducción",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; valoración visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Alemania; caja, cartucho y manual alemán visibles; caja con rotura en solapa y pegatina. Inserto visible; originalidad no confirmada. Funcionamiento sin comprobar. Valoración provisional, confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 14,
+    "marketMin": 9,
+    "marketMax": 20,
+    "valuationDate": "2026-11-23",
+    "photos": [
+      {
+        "src": "images/rgv-0103-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0103-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0103-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      },
+      {
+        "src": "images/rgv-0103-extras.webp",
+        "label": "Detalle de conservación",
+        "kind": "extras"
+      }
+    ],
+    "coverPhoto": "images/rgv-0103-front.webp"
+  },
+  {
+    "id": "rgv-0104",
+    "title": "WWF Raw",
+    "platform": "Super Nintendo",
+    "year": 1994,
+    "genre": "Lucha",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; valoración visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Europa; caja, cartucho y manual; caja con desgarro considerable en solapa y desgaste. Inserto visible; originalidad no confirmada. Funcionamiento sin comprobar. Valoración provisional, confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 26,
+    "marketMin": 18,
+    "marketMax": 36,
+    "valuationDate": "2026-11-23",
+    "photos": [
+      {
+        "src": "images/rgv-0104-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0104-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0104-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      },
+      {
+        "src": "images/rgv-0104-extras.webp",
+        "label": "Detalle de conservación",
+        "kind": "extras"
+      }
+    ],
+    "coverPhoto": "images/rgv-0104-front.webp"
+  },
+  {
+    "id": "rgv-0105",
+    "title": "John Madden Football '93",
+    "platform": "Super Nintendo",
+    "year": 1992,
+    "genre": "Deportes",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; valoración visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Reino Unido; caja, cartucho, manual y folleto de precauciones, hoja de jugadas. Inserto visible; originalidad no confirmada. Funcionamiento sin comprobar. Valoración provisional, confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 15,
+    "marketMin": 10,
+    "marketMax": 22,
+    "valuationDate": "2026-11-23",
+    "photos": [
+      {
+        "src": "images/rgv-0105-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0105-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0105-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0105-front.webp"
+  },
+  {
+    "id": "rgv-0106",
+    "title": "Pit-Fighter",
+    "platform": "Super Nintendo",
+    "year": 1992,
+    "genre": "Lucha",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; valoración visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Reino Unido; caja, cartucho y manual. Caja con roces, desgaste en bordes y zona del sello. Inserto visible; originalidad no confirmada. Funcionamiento sin comprobar. Valoración provisional, confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 20,
+    "marketMin": 14,
+    "marketMax": 28,
+    "valuationDate": "2026-11-23",
+    "photos": [
+      {
+        "src": "images/rgv-0106-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0106-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0106-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      },
+      {
+        "src": "images/rgv-0106-extras.webp",
+        "label": "Detalle de conservación",
+        "kind": "extras"
+      }
+    ],
+    "coverPhoto": "images/rgv-0106-front.webp"
+  },
+  {
+    "id": "rgv-0107",
+    "title": "The Lion King",
+    "platform": "Super Nintendo",
+    "year": 1994,
+    "genre": "Plataformas",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; valoración visual. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja inglesa y cartucho francés Le Roi Lion; sin manual; inserto reproducido según propietario. Caja desgastada; portada cerrada no fotografiada. Funcionamiento sin comprobar. Valoración provisional, confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 18,
+    "marketMin": 12,
+    "marketMax": 25,
+    "valuationDate": "2026-11-23",
+    "photos": [
+      {
+        "src": "images/rgv-0107-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0107-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": null
+  },
+  {
+    "id": "rgv-0108",
+    "title": "Taz-Mania",
+    "platform": "Super Nintendo",
+    "year": 1993,
+    "genre": "Plataformas",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; valoración visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Reino Unido; caja, cartucho, manual y folleto de precauciones visibles; pieza ilustrada adicional cuya naturaleza no está confirmada. Inserto visible; originalidad no confirmada. Funcionamiento sin comprobar. Valoración provisional, confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 30,
+    "marketMin": 20,
+    "marketMax": 40,
+    "valuationDate": "2026-11-23",
+    "photos": [
+      {
+        "src": "images/rgv-0108-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0108-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0108-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0108-front.webp"
+  },
+  {
+    "id": "rgv-0109",
+    "title": "Bulls vs Blazers and the NBA Playoffs",
+    "platform": "Super Nintendo",
+    "year": 1992,
+    "genre": "Deportes",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; valoración visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Francia; caja muy deteriorada, cartucho original, sin manual; inserto reproducido según propietario. Funcionamiento sin comprobar. Valoración provisional, confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 10,
+    "marketMin": 6,
+    "marketMax": 15,
+    "valuationDate": "2026-11-23",
+    "photos": [
+      {
+        "src": "images/rgv-0109-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0109-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0109-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0109-front.webp"
+  },
+  {
+    "id": "rgv-0110",
+    "title": "Derby Stallion 96",
+    "platform": "Super Famicom",
+    "year": 1996,
+    "genre": "Simulación",
+    "region": "Japón · Super Famicom",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; valoración visual. Funcionamiento y contactos sin comprobar.",
+    "description": "Japón; cartucho suelto SHVC-ZDBJ-JPN, sin caja ni manual; trasera y conector fotografiados. Funcionamiento sin comprobar. Valoración provisional, confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 5,
+    "marketMin": 3,
+    "marketMax": 8,
+    "valuationDate": "2026-11-23",
+    "photos": [
+      {
+        "src": "images/rgv-0110-front.webp",
+        "label": "Frontal del cartucho",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0110-back.webp",
+        "label": "Trasera del cartucho",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0110-inside.webp",
+        "label": "Conector del cartucho",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0110-front.webp"
   }
 ]

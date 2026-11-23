@@ -1,0 +1,201 @@
+{
+  "batch": "11",
+  "valuationDate": "2026-11-23",
+  "currency": "EUR",
+  "total": 171,
+  "previousTotal": 1073,
+  "collectionTotal": 1244,
+  "method": "Estimaciones prudentes de confianza baja; guías de ventas PAL en USD, sin conversión automática. Madden usa comparativa genérica deportiva; Derby usa referencia provisional del propietario.",
+  "items": [
+    {
+      "itemId": "rgv-0101",
+      "title": "Jimmy Connors Pro Tennis Tour",
+      "estimatedValue": 15,
+      "rangeMin": 10,
+      "rangeMax": 22,
+      "valuationDate": "2026-11-23",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "PAL cartucho 5,18 USD, completo 22,69 USD; ajuste por manual no confirmado. Estimación conservadora propia en EUR; guía de ventas en USD no convertida automáticamente. Subedición y estado pueden diferir.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/console/pal-super-nintendo?sort=lowest-price",
+          "type": "sales_aggregate",
+          "note": "PAL cartucho 5,18 USD, completo 22,69 USD; ajuste por manual no confirmado."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0102",
+      "title": "Golden Axe",
+      "estimatedValue": 18,
+      "rangeMin": 12,
+      "rangeMax": 25,
+      "valuationDate": "2026-11-23",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "PAL completo 20,18 USD; ventas completas citadas por la guía de 11,29 a 27,97 USD. Estimación conservadora propia en EUR; guía de ventas en USD no convertida automáticamente. Subedición y estado pueden diferir.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-sega-master-system/golden-axe",
+          "type": "sales_aggregate",
+          "note": "PAL completo 20,18 USD; ventas completas citadas por la guía de 11,29 a 27,97 USD."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0103",
+      "title": "Nigel Mansell’s World Championship",
+      "estimatedValue": 14,
+      "rangeMin": 9,
+      "rangeMax": 20,
+      "valuationDate": "2026-11-23",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "PAL completo 19,60 USD; descuento por rotura. Estimación conservadora propia en EUR; guía de ventas en USD no convertida automáticamente. Subedición y estado pueden diferir.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/console/pal-super-nintendo?sort=lowest-price",
+          "type": "sales_aggregate",
+          "note": "PAL completo 19,60 USD; descuento por rotura."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0104",
+      "title": "WWF Raw",
+      "estimatedValue": 26,
+      "rangeMin": 18,
+      "rangeMax": 36,
+      "valuationDate": "2026-11-23",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "PAL completo 38,91 USD; descuento por caja dañada. Estimación conservadora propia en EUR; guía de ventas en USD no convertida automáticamente. Subedición y estado pueden diferir.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-super-nintendo/wwf-raw",
+          "type": "sales_aggregate",
+          "note": "PAL completo 38,91 USD; descuento por caja dañada."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0105",
+      "title": "John Madden Football '93",
+      "estimatedValue": 15,
+      "rangeMin": 10,
+      "rangeMax": 22,
+      "valuationDate": "2026-11-23",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Referencia genérica PAL de juegos deportivos; no se localizó comparativa exacta verificable. Estimación conservadora propia en EUR; guía de ventas en USD no convertida automáticamente. Subedición y estado pueden diferir.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/console/pal-super-nintendo?sort=lowest-price",
+          "type": "sales_aggregate",
+          "note": "Referencia genérica PAL de juegos deportivos; no se localizó comparativa exacta verificable."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0106",
+      "title": "Pit-Fighter",
+      "estimatedValue": 20,
+      "rangeMin": 14,
+      "rangeMax": 28,
+      "valuationDate": "2026-11-23",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Venta PAL cartucho con manual 13,22 USD de 20/09/2026; caja desgastada añade valor incierto. Estimación conservadora propia en EUR; guía de ventas en USD no convertida automáticamente. Subedición y estado pueden diferir.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-super-nintendo/pit-fighter",
+          "type": "sales_aggregate",
+          "note": "Venta PAL cartucho con manual 13,22 USD de 20/09/2026; caja desgastada añade valor incierto."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0107",
+      "title": "The Lion King",
+      "estimatedValue": 18,
+      "rangeMin": 12,
+      "rangeMax": 25,
+      "valuationDate": "2026-11-23",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "PAL cartucho 13,89 USD, caja y cartucho 24,25 USD; descuento por mezcla de regiones y reproducción. Estimación conservadora propia en EUR; guía de ventas en USD no convertida automáticamente. Subedición y estado pueden diferir.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-super-nintendo/the-lion-king",
+          "type": "sales_aggregate",
+          "note": "PAL cartucho 13,89 USD, caja y cartucho 24,25 USD; descuento por mezcla de regiones y reproducción."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0108",
+      "title": "Taz-Mania",
+      "estimatedValue": 30,
+      "rangeMin": 20,
+      "rangeMax": 40,
+      "valuationDate": "2026-11-23",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Agregado PAL completo 38,50 USD; ajuste por uso y componentes sin verificar. Estimación conservadora propia en EUR; guía de ventas en USD no convertida automáticamente. Subedición y estado pueden diferir.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-super-nintendo/taz-mania",
+          "type": "sales_aggregate",
+          "note": "Agregado PAL completo 38,50 USD; ajuste por uso y componentes sin verificar."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0109",
+      "title": "Bulls vs Blazers and the NBA Playoffs",
+      "estimatedValue": 10,
+      "rangeMin": 6,
+      "rangeMax": 15,
+      "valuationDate": "2026-11-23",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "PAL cartucho 6,18 USD y completo 20,06 USD; descuento por deterioro y manual ausente. Estimación conservadora propia en EUR; guía de ventas en USD no convertida automáticamente. Subedición y estado pueden diferir.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/console/pal-super-nintendo?sort=lowest-price",
+          "type": "sales_aggregate",
+          "note": "PAL cartucho 6,18 USD y completo 20,06 USD; descuento por deterioro y manual ausente."
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0110",
+      "title": "Derby Stallion 96",
+      "estimatedValue": 5,
+      "rangeMin": 3,
+      "rangeMax": 8,
+      "valuationDate": "2026-11-23",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Referencia cartucho japonés suelto; estimación provisional del propietario de 5 EUR. Estimación conservadora propia en EUR; guía de ventas en USD no convertida automáticamente. Subedición y estado pueden diferir.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/super-famicom/derby-stallion-%2796",
+          "type": "sales_aggregate",
+          "note": "Referencia cartucho japonés suelto; estimación provisional del propietario de 5 EUR."
+        }
+      ]
+    }
+  ]
+}
