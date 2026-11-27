@@ -45,8 +45,8 @@ for (const asset of ['styles.css','app.js','data/catalog.json']) await readFile(
 assert(html.includes('lang="es"') && html.includes('name="viewport"'));
 console.log(`OK: ${games.length} public records; unique IDs, strict field allowlist, local assets and safe text rendering.`);
 
-assert.equal(games.length,110); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),1244);
-assert.equal(games.reduce((n,g)=>n+g.photos.length,0),346);
+assert.equal(games.length,120); assert.equal(games.reduce((n,g)=>n+g.marketValue,0),1351);
+assert.equal(games.reduce((n,g)=>n+g.photos.length,0),378);
 for (const game of games.slice(10,100)) {
  const sealed=['rgv-0045','rgv-0046','rgv-0047'].includes(game.id);
  assert.deepEqual(game.photos.map(p=>p.kind),sealed?['front','back']:['front','back','inside'],'Gallery must match available original photographs');
@@ -81,3 +81,5 @@ assert.equal(lot09.items.reduce((s,v)=>s+v.estimatedValue,0),60);
 const lot10=JSON.parse(await readFile("data/valuations-lot10.json","utf8")); assert.equal(lot10.items.length,10); assert.equal(lot10.items.reduce((s,v)=>s+v.estimatedValue,0),lot10.total); for(const v of lot10.items){const g=games.find(g=>g.id===v.itemId);assert(g && g.marketValue===v.estimatedValue && g.marketMin===v.rangeMin && g.marketMax===v.rangeMax && v.sources.length);}
 
 const lot11=JSON.parse(await readFile("data/valuations-lot11.json","utf8")); assert.equal(lot11.items.length,10);assert.equal(lot11.items.reduce((s,v)=>s+v.estimatedValue,0),lot11.total);for(const v of lot11.items){const g=games.find(g=>g.id===v.itemId);assert(g && g.marketValue===v.estimatedValue && g.marketMin===v.rangeMin && g.marketMax===v.rangeMax && v.sources.length);}
+
+const lot12=JSON.parse(await readFile("data/valuations-lot12.json","utf8")); assert.equal(lot12.items.length,10); assert.equal(lot12.items.reduce((s,v)=>s+v.estimatedValue,0),lot12.total); for(const v of lot12.items){const g=games.find(g=>g.id===v.itemId);assert(g && g.marketValue===v.estimatedValue && v.sources.length);} assert.equal(games.slice(110).reduce((s,g)=>s+g.photos.length,0),32); assert.match(games.find(g=>g.id==="rgv-0116").description,/incompleto/i);

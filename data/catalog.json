@@ -3928,5 +3928,365 @@
       }
     ],
     "coverPhoto": "images/rgv-0110-front.webp"
+  },
+  {
+    "id": "rgv-0111",
+    "title": "FIFA International Soccer",
+    "platform": "Sega Mega Drive",
+    "year": 1993,
+    "genre": "Deportes",
+    "region": "Europa · PAL; cartucho Genesis",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; evaluación visual. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja europea con rotura; cartucho Genesis, sin manual. Incompleto y de componentes mixtos. Tasación provisional de confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 5,
+    "marketMin": 3,
+    "marketMax": 8,
+    "valuationDate": "2026-11-27",
+    "photos": [
+      {
+        "src": "images/rgv-0111-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0111-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0111-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      },
+      {
+        "src": "images/rgv-0111-detail-1.webp",
+        "label": "Detalle de conservación",
+        "kind": "extras"
+      },
+      {
+        "src": "images/rgv-0111-detail-2.webp",
+        "label": "Detalle de conservación",
+        "kind": "extras"
+      }
+    ],
+    "coverPhoto": "images/rgv-0111-front.webp"
+  },
+  {
+    "id": "rgv-0112",
+    "title": "NBA Live 97",
+    "platform": "Sega Mega Drive",
+    "year": 1996,
+    "genre": "Deportes",
+    "region": "Europa · PAL; cartucho Genesis",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; evaluación visual. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja y manual europeos; cartucho etiquetado Genesis. Componentes presentes, edición mixta y correspondencia regional no confirmada. Tasación provisional de confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 14,
+    "marketMin": 8,
+    "marketMax": 22,
+    "valuationDate": "2026-11-27",
+    "photos": [
+      {
+        "src": "images/rgv-0112-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0112-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0112-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0112-front.webp"
+  },
+  {
+    "id": "rgv-0113",
+    "title": "FIFA Soccer 96",
+    "platform": "Sega Mega Drive",
+    "year": 1995,
+    "genre": "Deportes",
+    "region": "Europa · PAL; cartucho Genesis",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; evaluación visual. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja y manual europeos; cartucho etiquetado Genesis. Componentes presentes, edición mixta. Tasación provisional de confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 6,
+    "marketMin": 3,
+    "marketMax": 10,
+    "valuationDate": "2026-11-27",
+    "photos": [
+      {
+        "src": "images/rgv-0113-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0113-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0113-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0113-front.webp"
+  },
+  {
+    "id": "rgv-0114",
+    "title": "NHLPA Hockey '93",
+    "platform": "Sega Mega Drive",
+    "year": 1992,
+    "genre": "Deportes",
+    "region": "Europa · PAL; cartucho Genesis",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; evaluación visual. Funcionamiento y contactos sin comprobar.",
+    "description": "Caja europea con desgaste, manual inglés/francés y cartucho Genesis. Componentes presentes, edición mixta. Tasación provisional de confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 7,
+    "marketMin": 4,
+    "marketMax": 11,
+    "valuationDate": "2026-11-27",
+    "photos": [
+      {
+        "src": "images/rgv-0114-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0114-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0114-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0114-front.webp"
+  },
+  {
+    "id": "rgv-0115",
+    "title": "Sonic the Hedgehog",
+    "platform": "Sega Mega Drive",
+    "year": 1991,
+    "genre": "Plataformas",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; evaluación visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Europa; caja, cartucho y manual visibles. Caja con desgaste y residuo de pegatina. Completo en componentes principales. Tasación provisional de confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 12,
+    "marketMin": 8,
+    "marketMax": 18,
+    "valuationDate": "2026-11-27",
+    "photos": [
+      {
+        "src": "images/rgv-0115-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0115-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0115-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0115-front.webp"
+  },
+  {
+    "id": "rgv-0116",
+    "title": "Mega Games I",
+    "platform": "Sega Mega Drive",
+    "year": 1992,
+    "genre": "Deportes",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; evaluación visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Europa; caja y cartucho. Solo incluye el manual de World Cup Italia '90; faltan los de Columns y Super Hang-On. Incompleto. Tasación provisional de confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 7,
+    "marketMin": 4,
+    "marketMax": 10,
+    "valuationDate": "2026-11-27",
+    "photos": [
+      {
+        "src": "images/rgv-0116-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0116-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0116-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0116-front.webp"
+  },
+  {
+    "id": "rgv-0117",
+    "title": "Sonic the Hedgehog 2",
+    "platform": "Sega Mega Drive",
+    "year": 1992,
+    "genre": "Plataformas",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; evaluación visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Europa; caja, cartucho y manual visibles. Uso y restos de etiqueta. Completo en componentes principales. Tasación provisional de confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 14,
+    "marketMin": 9,
+    "marketMax": 21,
+    "valuationDate": "2026-11-27",
+    "photos": [
+      {
+        "src": "images/rgv-0117-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0117-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0117-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0117-front.webp"
+  },
+  {
+    "id": "rgv-0118",
+    "title": "Lemmings",
+    "platform": "Sega Mega Drive",
+    "year": 1992,
+    "genre": "Puzle",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; evaluación visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Europa; caja, cartucho y manual visibles. Residuo de etiqueta en el frontal. Completo en componentes principales. Tasación provisional de confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 15,
+    "marketMin": 10,
+    "marketMax": 22,
+    "valuationDate": "2026-11-27",
+    "photos": [
+      {
+        "src": "images/rgv-0118-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0118-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0118-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0118-front.webp"
+  },
+  {
+    "id": "rgv-0119",
+    "title": "Nakajima Satoru Kanshū F1 Hero MD",
+    "platform": "Sega Mega Drive",
+    "year": 1992,
+    "genre": "Conducción",
+    "region": "Japón · NTSC-J",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; evaluación visual. Funcionamiento y contactos sin comprobar.",
+    "description": "Japón NTSC-J; caja, cartucho y manual visibles. Completo en componentes principales. Tasación provisional de confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 10,
+    "marketMin": 6,
+    "marketMax": 15,
+    "valuationDate": "2026-11-27",
+    "photos": [
+      {
+        "src": "images/rgv-0119-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0119-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0119-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0119-front.webp"
+  },
+  {
+    "id": "rgv-0120",
+    "title": "Altered Beast",
+    "platform": "Sega Mega Drive",
+    "year": 1990,
+    "genre": "Acción",
+    "region": "Europa · PAL",
+    "format": "Cartucho físico",
+    "status": "En colección",
+    "condition": "Usado; evaluación visual. Funcionamiento y contactos sin comprobar.",
+    "description": "PAL Europa; caja, cartucho y manual visibles. Uso superficial. Completo en componentes principales. Tasación provisional de confianza baja.",
+    "color": "#3c8f6e",
+    "marketValue": 17,
+    "marketMin": 11,
+    "marketMax": 24,
+    "valuationDate": "2026-11-27",
+    "photos": [
+      {
+        "src": "images/rgv-0120-front.webp",
+        "label": "Frontal de caja cerrada",
+        "kind": "front"
+      },
+      {
+        "src": "images/rgv-0120-back.webp",
+        "label": "Contraportada",
+        "kind": "back"
+      },
+      {
+        "src": "images/rgv-0120-inside.webp",
+        "label": "Interior y contenido visible",
+        "kind": "inside"
+      }
+    ],
+    "coverPhoto": "images/rgv-0120-front.webp"
   }
 ]

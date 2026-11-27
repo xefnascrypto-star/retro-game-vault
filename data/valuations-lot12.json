@@ -1,0 +1,251 @@
+{
+  "batch": "12",
+  "valuationDate": "2026-11-27",
+  "currency": "EUR",
+  "total": 107,
+  "previousTotal": 1244,
+  "collectionTotal": 1351,
+  "method": "Estimaciones propias provisionales, con ajustes por estado, componentes y mezcla regional.",
+  "items": [
+    {
+      "itemId": "rgv-0111",
+      "title": "FIFA International Soccer",
+      "estimatedValue": 5,
+      "rangeMin": 3,
+      "rangeMax": 8,
+      "valuationDate": "2026-11-27",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Caja y cartucho PAL 6,58 USD; descuento por rotura y mezcla. Estimación propia redondeada en euros; no es una venta del ejemplar. BCE 27/11/2026: 1 EUR = 1,0957 USD y 174,81 JPY.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-sega-mega-drive/fifa-international-soccer",
+          "type": "sales_aggregate",
+          "note": "Caja y cartucho PAL 6,58 USD; descuento por rotura y mezcla."
+        },
+        {
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+          "type": "exchange_rate",
+          "note": "BCE 27/11/2026"
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0112",
+      "title": "NBA Live 97",
+      "estimatedValue": 14,
+      "rangeMin": 8,
+      "rangeMax": 22,
+      "valuationDate": "2026-11-27",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Completo PAL 25,42 USD; descuento por mezcla. Estimación propia redondeada en euros; no es una venta del ejemplar. BCE 27/11/2026: 1 EUR = 1,0957 USD y 174,81 JPY.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-sega-mega-drive/nba-live-97",
+          "type": "sales_aggregate",
+          "note": "Completo PAL 25,42 USD; descuento por mezcla."
+        },
+        {
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+          "type": "exchange_rate",
+          "note": "BCE 27/11/2026"
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0113",
+      "title": "FIFA Soccer 96",
+      "estimatedValue": 6,
+      "rangeMin": 3,
+      "rangeMax": 10,
+      "valuationDate": "2026-11-27",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Completo PAL 6,68 USD, con incertidumbre por mezcla. Estimación propia redondeada en euros; no es una venta del ejemplar. BCE 27/11/2026: 1 EUR = 1,0957 USD y 174,81 JPY.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-sega-mega-drive/fifa-soccer-96",
+          "type": "sales_aggregate",
+          "note": "Completo PAL 6,68 USD, con incertidumbre por mezcla."
+        },
+        {
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+          "type": "exchange_rate",
+          "note": "BCE 27/11/2026"
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0114",
+      "title": "NHLPA Hockey '93",
+      "estimatedValue": 7,
+      "rangeMin": 4,
+      "rangeMax": 11,
+      "valuationDate": "2026-11-27",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Completo PAL 8,28 USD; incertidumbre por mezcla. Estimación propia redondeada en euros; no es una venta del ejemplar. BCE 27/11/2026: 1 EUR = 1,0957 USD y 174,81 JPY.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-sega-mega-drive/nhlpa-hockey-%2793",
+          "type": "sales_aggregate",
+          "note": "Completo PAL 8,28 USD; incertidumbre por mezcla."
+        },
+        {
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+          "type": "exchange_rate",
+          "note": "BCE 27/11/2026"
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0115",
+      "title": "Sonic the Hedgehog",
+      "estimatedValue": 12,
+      "rangeMin": 8,
+      "rangeMax": 18,
+      "valuationDate": "2026-11-27",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Completo PAL 16,30 USD; descuento por uso. Estimación propia redondeada en euros; no es una venta del ejemplar. BCE 27/11/2026: 1 EUR = 1,0957 USD y 174,81 JPY.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-sega-mega-drive/sonic-the-hedgehog",
+          "type": "sales_aggregate",
+          "note": "Completo PAL 16,30 USD; descuento por uso."
+        },
+        {
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+          "type": "exchange_rate",
+          "note": "BCE 27/11/2026"
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0116",
+      "title": "Mega Games I",
+      "estimatedValue": 7,
+      "rangeMin": 4,
+      "rangeMax": 10,
+      "valuationDate": "2026-11-27",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Caja y cartucho PAL 7,26 USD; descuento por manuales ausentes. Estimación propia redondeada en euros; no es una venta del ejemplar. BCE 27/11/2026: 1 EUR = 1,0957 USD y 174,81 JPY.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-sega-mega-drive/mega-games-1",
+          "type": "sales_aggregate",
+          "note": "Caja y cartucho PAL 7,26 USD; descuento por manuales ausentes."
+        },
+        {
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+          "type": "exchange_rate",
+          "note": "BCE 27/11/2026"
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0117",
+      "title": "Sonic the Hedgehog 2",
+      "estimatedValue": 14,
+      "rangeMin": 9,
+      "rangeMax": 21,
+      "valuationDate": "2026-11-27",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Ventas PAL completas observadas entre 14,50 y 19,99 USD; ajuste por uso. Estimación propia redondeada en euros; no es una venta del ejemplar. BCE 27/11/2026: 1 EUR = 1,0957 USD y 174,81 JPY.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-sega-mega-drive/sonic-the-hedgehog-2",
+          "type": "sales_aggregate",
+          "note": "Ventas PAL completas observadas entre 14,50 y 19,99 USD; ajuste por uso."
+        },
+        {
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+          "type": "exchange_rate",
+          "note": "BCE 27/11/2026"
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0118",
+      "title": "Lemmings",
+      "estimatedValue": 15,
+      "rangeMin": 10,
+      "rangeMax": 22,
+      "valuationDate": "2026-11-27",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Completo PAL 19,59 USD; descuento por marca de etiqueta. Estimación propia redondeada en euros; no es una venta del ejemplar. BCE 27/11/2026: 1 EUR = 1,0957 USD y 174,81 JPY.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-sega-mega-drive/lemmings",
+          "type": "sales_aggregate",
+          "note": "Completo PAL 19,59 USD; descuento por marca de etiqueta."
+        },
+        {
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+          "type": "exchange_rate",
+          "note": "BCE 27/11/2026"
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0119",
+      "title": "Nakajima Satoru Kanshū F1 Hero MD",
+      "estimatedValue": 10,
+      "rangeMin": 6,
+      "rangeMax": 15,
+      "valuationDate": "2026-11-27",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Ventas japonesas con caja 1233–2000 JPY en 2025; guía CIB 1694 JPY, datos antiguos. Estimación propia redondeada en euros; no es una venta del ejemplar. BCE 27/11/2026: 1 EUR = 1,0957 USD y 174,81 JPY.",
+      "sources": [
+        {
+          "url": "https://japangameprices.com/game/sega-mega-drive/1195-nakajima-satoru-kanshuu-f-1-hero",
+          "type": "sales_aggregate",
+          "note": "Ventas japonesas con caja 1233–2000 JPY en 2025; guía CIB 1694 JPY, datos antiguos."
+        },
+        {
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+          "type": "exchange_rate",
+          "note": "BCE 27/11/2026"
+        }
+      ]
+    },
+    {
+      "itemId": "rgv-0120",
+      "title": "Altered Beast",
+      "estimatedValue": 17,
+      "rangeMin": 11,
+      "rangeMax": 24,
+      "valuationDate": "2026-11-27",
+      "confidence": "baja",
+      "provisional": true,
+      "digitalBonusValue": 0,
+      "method": "Completo PAL 19,22 USD; ajuste por uso. Estimación propia redondeada en euros; no es una venta del ejemplar. BCE 27/11/2026: 1 EUR = 1,0957 USD y 174,81 JPY.",
+      "sources": [
+        {
+          "url": "https://www.pricecharting.com/game/pal-sega-mega-drive/altered-beast",
+          "type": "sales_aggregate",
+          "note": "Completo PAL 19,22 USD; ajuste por uso."
+        },
+        {
+          "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+          "type": "exchange_rate",
+          "note": "BCE 27/11/2026"
+        }
+      ]
+    }
+  ]
+}
