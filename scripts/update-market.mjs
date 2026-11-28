@@ -9,7 +9,7 @@ const date=xml.match(/time=['"](\d{4}-\d{2}-\d{2})['"]/)?.[1], usd=Number(xml.ma
 if(!date||!Number.isFinite(usd)||usd<=0||Date.now()-Date.parse(date)>7*86400000)throw Error('Tipo de cambio BCE ausente o desactualizado');
 for(const m of mappings){
  try{
-  const game=games.find(g=>g.id===m.id);if(!game||game.title!==m.title||game.platform!=='Sega Mega Drive'||!game.region.includes('PAL'))throw Error('Identidad no coincide');
+  const game=games.find(g=>g.id===m.id);if(!game||game.status!=='En colección'||game.title!==m.title||game.platform!=='Sega Mega Drive'||!game.region.includes('PAL'))throw Error('Identidad o estado no coincide');
   const api=await (await get(`https://gamepricefeed.com/api/price?family=${encodeURIComponent(m.family)}&slug=${encodeURIComponent(m.slug)}`)).json();
   const quote=api.prices_by_region?.[m.region]?.[m.condition];const url=`https://gamepricefeed.com/game/${m.family}/${m.slug}`;
   if(api.game!==m.title||api.platform!==m.family||api.slug!==m.slug||api.credit?.link!==url||!quote||quote.currency!=='USD'||!['high','good'].includes(quote.confidence)||quote.n<5||!Number.isFinite(quote.median)||quote.median<=0)throw Error('Referencia o ventas insuficientes');
@@ -19,9 +19,10 @@ for(const m of mappings){
  await new Promise(r=>setTimeout(r,750));
 }
 if(!verified)throw Error('Ninguna referencia fiable verificada; no se registra una revisión');
-const total=games.reduce((s,g)=>s+(prices[g.id]?.value??g.marketValue),0);
-const members=Object.fromEntries(games.map(g=>[g.id,prices[g.id]?.value??g.marketValue]));
-const marketChange=last?.members?games.filter(g=>Object.hasOwn(last.members,g.id)).reduce((s,g)=>s+members[g.id]-last.members[g.id],0):null;
-const acquisitions=last?.members?games.filter(g=>!Object.hasOwn(last.members,g.id)).reduce((s,g)=>s+members[g.id],0)-Object.keys(last.members).filter(id=>!Object.hasOwn(members,id)).reduce((s,id)=>s+last.members[id],0):null;
+const owned=games.filter(g=>g.status==='En colección');
+const total=owned.reduce((s,g)=>s+(prices[g.id]?.value??g.marketValue),0);
+const members=Object.fromEntries(owned.map(g=>[g.id,prices[g.id]?.value??g.marketValue]));
+const marketChange=last?.members?owned.filter(g=>Object.hasOwn(last.members,g.id)).reduce((s,g)=>s+members[g.id]-last.members[g.id],0):null;
+const acquisitions=last?.members?owned.filter(g=>!Object.hasOwn(last.members,g.id)).reduce((s,g)=>s+members[g.id],0)-Object.keys(last.members).filter(id=>!Object.hasOwn(members,id)).reduce((s,id)=>s+last.members[id],0):null;
 const review={date:new Date().toISOString(),total,marketChange,acquisitions,verified,members,prices};
 previous.reviews.push(review);await writeFile('data/market-reviews.json',JSON.stringify(previous,null,2)+'\n');console.log(JSON.stringify({verified,changed,total,marketChange}));

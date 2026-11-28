@@ -23,7 +23,7 @@ function showDetail(game) {
   const list = element('dl');
   for (const [label, value] of [['Plataforma', game.platform], ['Año', game.year], ['Género', game.genre], ['Región', game.region], ['Formato', game.format], ['Estado', game.status], ['Conservación', game.condition]]) list.append(element('dt', label), element('dd', value));
   if (Number.isFinite(Number(game.marketValue))) list.append(element('dt','Valor estimado'),element('dd',`${euros(game.marketValue)} · provisional${game.marketSource ? ' · tasación original ' + euros(game.originalValue) : game.marketMin === game.marketMax ? ' · rango pendiente de confirmar' : ' · rango ' + euros(game.marketMin) + '–' + euros(game.marketMax)}`));
-  if(game.marketSource){const credit=element('p','Precio orientativo ajustado · ');const link=element('a','gamepricefeed');link.href=game.marketSource.url;link.target='_blank';link.rel='noopener noreferrer';credit.append(link,document.createTextNode(` · ${game.marketSource.sales} ventas · confianza ${game.marketSource.confidence} · ${game.marketSource.adjustment}`));content.append(credit);}
+  if(game.marketSource){const credit=element('p','Precio orientativo ajustado · ');const link=element('a','gamepricefeed');link.href=game.marketSource.url;link.target='_blank';link.rel='noopener noreferrer';credit.append(link,document.createTextNode(` · consulta ${game.marketSource.queryDate.slice(0,10)} · ${game.marketSource.sales} ventas · confianza ${game.marketSource.confidence} · ${game.marketSource.adjustment}`));content.append(credit);}
   content.append(list, element('p', 'Valoración provisional del lote. Fotografías originales disponibles: ' + (game.photos.length ? game.photos.length : 'ninguna; pendientes de recuperar') + ''));
   $('detail').showModal();
 }
