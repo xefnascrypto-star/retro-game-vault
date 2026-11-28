@@ -1,11 +1,8 @@
 name: Review market prices
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - scripts/update-market.mjs
-      - .github/workflows/market-prices.yml
+  schedule:
+    - cron: '17 9 * * 0'
 permissions:
   contents: write
   pages: write
