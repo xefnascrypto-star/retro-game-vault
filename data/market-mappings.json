@@ -1,0 +1,6 @@
+[
+  {"id":"rgv-0115","family":"md","slug":"sonic-the-hedgehog","title":"Sonic the Hedgehog","region":"pal","condition":"cib","factor":0.9,"reason":"Restos de pegatina y uso visible; descuento conservador del 10 %."},
+  {"id":"rgv-0117","family":"md","slug":"sonic-the-hedgehog-2","title":"Sonic the Hedgehog 2","region":"pal","condition":"cib","factor":0.9,"reason":"Restos de etiqueta y desgaste visible; descuento conservador del 10 %."},
+  {"id":"rgv-0118","family":"md","slug":"lemmings","title":"Lemmings","region":"pal","condition":"cib","factor":0.9,"reason":"Residuo de etiqueta en portada; descuento conservador del 10 %."},
+  {"id":"rgv-0120","family":"md","slug":"altered-beast","title":"Altered Beast","region":"pal","condition":"cib","factor":0.95,"reason":"Uso superficial; descuento conservador del 5 %."}
+]

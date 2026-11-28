@@ -1,6 +1,7 @@
 const $ = (id) => document.getElementById(id);
 let games = [];
 let valueHistory = [];
+let marketReviews = [];
 const euros = value => new Intl.NumberFormat('es-ES',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(value);
 const ownedValue = () => games.filter(g=>g.status==='En colección').reduce((sum,g)=>sum+(Number(g.marketValue)||0),0);
 const normalize = (value) => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
@@ -21,7 +22,8 @@ function showDetail(game) {
   content.append(element('p', game.description));
   const list = element('dl');
   for (const [label, value] of [['Plataforma', game.platform], ['Año', game.year], ['Género', game.genre], ['Región', game.region], ['Formato', game.format], ['Estado', game.status], ['Conservación', game.condition]]) list.append(element('dt', label), element('dd', value));
-  if (Number.isFinite(Number(game.marketValue))) list.append(element('dt','Valor estimado'),element('dd',`${euros(game.marketValue)} · provisional${game.marketMin === game.marketMax ? ' · rango pendiente de confirmar' : ' · rango ' + euros(game.marketMin) + '–' + euros(game.marketMax)}`));
+  if (Number.isFinite(Number(game.marketValue))) list.append(element('dt','Valor estimado'),element('dd',`${euros(game.marketValue)} · provisional${game.marketSource ? ' · tasación original ' + euros(game.originalValue) : game.marketMin === game.marketMax ? ' · rango pendiente de confirmar' : ' · rango ' + euros(game.marketMin) + '–' + euros(game.marketMax)}`));
+  if(game.marketSource){const credit=element('p','Precio orientativo ajustado · ');const link=element('a','gamepricefeed');link.href=game.marketSource.url;link.target='_blank';link.rel='noopener noreferrer';credit.append(link,document.createTextNode(` · ${game.marketSource.sales} ventas · confianza ${game.marketSource.confidence} · ${game.marketSource.adjustment}`));content.append(credit);}
   content.append(list, element('p', 'Valoración provisional del lote. Fotografías originales disponibles: ' + (game.photos.length ? game.photos.length : 'ninguna; pendientes de recuperar') + ''));
   $('detail').showModal();
 }
@@ -52,7 +54,7 @@ function render() {
     if(!game.coverPhoto) art.classList.add('no-cover');
     art.append(element('small', game.platform), element('strong', game.title), element('span', game.coverPhoto ? `${game.year} / COLECCIÓN REAL` : 'Frontal original pendiente'));
     const body = element('div', undefined, 'card-body'); body.append(element('span', game.platform, 'tag'), element('h3', game.title), element('div', `${game.year} · ${game.genre}`, 'meta'), element('div', `${game.status === 'En colección' ? '●' : '◇'} ${game.status}`, `state ${game.status === 'Lista de deseos' ? 'wish' : ''}`));
-    body.append(element('div', euros(game.marketValue) + ' · provisional', 'meta'), element('div', game.coverPhoto ? game.photos.length + ' fotos originales' : game.photos.length ? 'Portada pendiente · ' + game.photos.length + ' fotos originales' : 'Fotografías pendientes', 'meta')); card.append(art, body); card.addEventListener('click', () => showDetail(game)); $('grid').append(card);
+    body.append(element('div', euros(game.marketValue) + ' · provisional' + (game.marketSource?' · gamepricefeed':''), 'meta'), element('div', game.coverPhoto ? game.photos.length + ' fotos originales' : game.photos.length ? 'Portada pendiente · ' + game.photos.length + ' fotos originales' : 'Fotografías pendientes', 'meta')); card.append(art, body); card.addEventListener('click', () => showDetail(game)); const wrapper=element('div',undefined,'card-wrapper');wrapper.append(card);if(game.marketSource){const link=element('a','Fuente: gamepricefeed');link.href=game.marketSource.url;link.target='_blank';link.rel='noopener noreferrer';link.className='source-link';wrapper.append(link);}$('grid').append(wrapper);
   }
   $('results').textContent = `${filtered.length} de ${games.length} juegos`; $('empty').hidden = filtered.length !== 0;
 }
@@ -91,6 +93,7 @@ try {
   const response = await fetch('./data/catalog.json?v=20261114-lote01',{cache:'no-store'}); if (!response.ok) throw new Error('Catalog unavailable');
   games = await response.json();
   try {const historyResponse=await fetch('./data/value-history.json?v=20261114-lote01',{cache:'no-store'}); if(historyResponse.ok)valueHistory=await historyResponse.json();}catch {}
+  try {const marketResponse=await fetch('./data/market-reviews.json',{cache:'no-store'});if(marketResponse.ok){marketReviews=(await marketResponse.json()).reviews||[];const latest=marketReviews.at(-1);if(latest){for(const g of games){if(latest.prices[g.id]){g.originalValue=g.marketValue;g.marketValue=latest.prices[g.id].value;g.marketSource=latest.prices[g.id];}}valueHistory.push(...marketReviews.map(r=>({date:r.date.slice(0,10),total:r.total,note:'Revisión de mercado; incorporaciones separadas.'})));$('market-status').textContent=`Última revisión: ${latest.date.slice(0,10)} · ${latest.verified} referencias contrastadas`;const prior=marketReviews.at(-2);if(prior){const common=Object.keys(latest.members).filter(id=>Object.hasOwn(prior.members,id));const sorted=common.map(id=>({game:games.find(g=>g.id===id),delta:latest.members[id]-prior.members[id]})).filter(x=>x.game&&x.delta).sort((a,b)=>b.delta-a.delta);const up=sorted.find(x=>x.delta>0),down=[...sorted].reverse().find(x=>x.delta<0);$('market-movers').textContent=(up?'Mayor subida: '+up.game.title+' (+'+euros(up.delta)+')':'Sin subidas')+' · '+(down?'Mayor bajada: '+down.game.title+' ('+euros(down.delta)+')':'Sin bajadas');}for(const [days,id] of [[7,'market-week'],[30,'market-month']]){const ref=[...marketReviews].reverse().find(r=>Date.parse(r.date)<=Date.parse(latest.date)-days*86400000);if(ref){const delta=Object.keys(latest.members).filter(k=>Object.hasOwn(ref.members,k)).reduce((s,k)=>s+latest.members[k]-ref.members[k],0);$(id).textContent=(delta>=0?'+':'')+euros(delta);}}}}}catch(e){console.error('No se han podido cargar las revisiones de mercado',e);}
   const platforms = [...new Set(games.map(g => g.platform))].sort();
   for (const platform of platforms) { const option = element('option', platform); option.value = platform; $('platform').append(option); }
   $('total').textContent = games.length.toString().padStart(2,'0'); $('platforms').textContent = platforms.length.toString().padStart(2,'0'); $('owned').textContent = games.filter(g => g.status === 'En colección').length.toString().padStart(2,'0'); $('market-value').textContent=euros(ownedValue()); $('value-current').textContent=euros(ownedValue()); render();
